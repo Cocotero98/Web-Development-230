@@ -36,6 +36,8 @@ header img{
     grid-column: 1/2;
     align-self: center;
     justify-self: center;
+    width: 10%;
+    height: auto;
 }
 header h1{
     grid-column: 2/4;
