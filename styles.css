@@ -36,6 +36,7 @@ header img{
     grid-column: 1/2;
     align-self: center;
     justify-self: center;
+    padding:20px 0
 }
 header h1{
     grid-column: 2/4;
