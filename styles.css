@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Roboto:ital,wght@0,400;1,100&display=swap');
+main{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: rgb(44, 44, 165);
+    font-family: 'Lilita One', cursive;
+    font-size: 2em;
+    border-radius: 2em;
+    box-shadow: #000;
+}
+h2{
+    font-size: 1.5em;
+    text-shadow: #000;
+}
+ul {
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+}
+footer{
+    background-color: rgb(44, 44, 165);
+    font-family: 'Lilita One', cursive;
+    border-radius: 2em;
+    box-shadow: #000;
+}
+#lessons{
+    font-style: italic;
+}
