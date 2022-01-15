@@ -33,4 +33,4 @@ let seconds= d.getSeconds
 
 let fulldate=month+'/'+date+'/'+year+' '+hour+':'+minute+':'+seconds
 
-document.getElementById("currenttime").textContent=fulldate
+document.getElementById("currenttime").innerHTML=fulldate
