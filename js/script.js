@@ -31,6 +31,6 @@ let hour= d.getHours
 let minute= d.getMinutes
 let seconds= d.getSeconds
 
-let fulldate=`${month}'/'${date}'/'${year}' '${hour}':'${minute}':'${seconds}`
+let fulldate=month+'/'+date+'/'+year+' '+hour+':'+minute+':'+seconds
 
 document.getElementById("currenttime").textContent=fulldate
