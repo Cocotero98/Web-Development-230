@@ -6,6 +6,8 @@ body{
 main{
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
+    max-width: 500px;
+    margin: auto;
 }
 header{
     background-color: rgb(44, 44, 165);
@@ -36,7 +38,7 @@ header img{
     grid-column: 1/2;
     align-self: center;
     justify-self: center;
-    padding:20px 0
+    padding: 20px 40px 20px 40px;
 }
 header h1{
     grid-column: 2/4;
