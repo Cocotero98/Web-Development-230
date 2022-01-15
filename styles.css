@@ -35,6 +35,8 @@ footer{
 }
 #lessons{
     font-style: italic;
+    font-size: 16px;
+    margin-top: -10px;
 }
 header img{
     grid-column: 1/2;
