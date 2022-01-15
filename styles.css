@@ -47,7 +47,7 @@ header h1{
     grid-column: 2/4;
     align-self: center;
     justify-self: center;
-    font-size: 2em;
+    font-size: 1.5em;
     color:white;
     text-shadow: 2px 1px #000000;
 }
