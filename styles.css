@@ -1,21 +1,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Roboto:ital,wght@0,400;1,100&display=swap');
 body{
-    max-width: 50%;
+    max-width: 500px;
+    margin: auto;
 }
 main{
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
-    max-width: 500px;
-    margin: auto;
 }
 header{
     background-color: rgb(44, 44, 165);
     font-family: 'Lilita One', cursive;
     border-radius: 2em;
-    box-shadow: #000;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    box-shadow: 8px 8px 40px black;
 }
 h2{
     font-size: 1.5em;
@@ -24,6 +23,9 @@ h2{
 ul {
     border-bottom: 1px solid #000;
     border-top: 1px solid #000;
+    padding-top: 15px;
+    line-height: 2em;
+    padding-bottom: 15px
 }
 footer{
     background-color: rgb(44, 44, 165);
@@ -37,12 +39,18 @@ footer{
 header img{
     grid-column: 1/2;
     align-self: center;
-    justify-self: center;
+    justify-self: left;
     padding: 20px 40px 20px 40px;
+    width: 80%
 }
 header h1{
     grid-column: 2/4;
     align-self: center;
     justify-self: center;
     font-size: 2em;
+    color:white;
+    text-shadow: 2px 1px #000000;
+}
+.elements-inside{
+    margin: 30px;
 }
