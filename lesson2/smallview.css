@@ -6,7 +6,8 @@ p {
     font-family: 'Open Sans', sans-serif;
 }
 body{
-    margin:200px;
+    max-width: 500px;
+    margin: auto;
 }
 img{
     max-width: -webkit-fill-available;
