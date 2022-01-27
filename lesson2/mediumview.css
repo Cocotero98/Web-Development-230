@@ -1,0 +1,14 @@
+/* @media only screen and (min-width:32.5em){
+    header{
+        grid-template-rows: 1fr;
+    }
+    header img{
+        grid-column: 1/2;
+        justify-self: left;
+        padding: 20px 40px 20px 40px;
+        width: 80%;
+    }
+    header h1{
+        grid-column: 2/4;
+    }
+} */
