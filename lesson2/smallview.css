@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
 h1, h2, h3 {
     font-family: 'Poppins', sans-serif;
+    color:white;
 }
 p {
     font-family: 'Open Sans', sans-serif;
@@ -15,6 +16,8 @@ img{
 header{
     display: grid;
     justify-items: center;
+    margin-bottom: 20px;
+    background-color: rgb(39, 39, 94);
 }
 footer{
     display: grid;
@@ -24,5 +27,10 @@ footer{
     border: solid 1px black;
     padding: 10px;
     border-radius: 20px;
+    margin-bottom: 20px;
+    background-color: lightgray;
+}
+.h3s{
+    background-color: rgb(68, 71, 88);
 }
 
