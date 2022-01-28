@@ -37,7 +37,7 @@ header{
     justify-self: center;
     width: 100%;
 }
-#renault{
+.contrast #renault{
     grid-row: 5;
     grid-column: 1/4;
 
