@@ -1,11 +1,11 @@
 @media only screen and (min-width:32.5em){
 
 body{
-    max-width: 900px;
+    max-width: 1000px;
 }
 main{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat( auto-fit, minmax(450px, 1fr));
 }
 header{
     grid-column: 1/3;
