@@ -12,6 +12,7 @@
 
     .contrast {
         grid-column: 3/4;
+        display: block;
     }
 
     }
