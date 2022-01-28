@@ -24,12 +24,12 @@ let months=[
 
 let d= new Date();
 let dayname= daynames[d.getDay()];
-let month= d.getMonth
-let date= d.getDate
-let year= d.getFullYear
-let hour= d.getHours
-let minute= d.getMinutes
-let seconds= d.getSeconds
+let month= d.getMonth()
+let date= d.getDate()
+let year= d.getFullYear()
+let hour= d.getHours()
+let minute= d.getMinutes()
+let seconds= d.getSeconds()
 
 let fulldate=month+'/'+date+'/'+year+' '+hour+':'+minute+':'+seconds
 
