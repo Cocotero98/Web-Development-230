@@ -1,14 +1,19 @@
-/* @media only screen and (min-width:60em){
+@media only screen and (min-width:60em){
+    body{
+        max-width: 1500px;
+    }
+    main{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
     header{
-        grid-template-rows: 1fr;
+        grid-column: 1/4;
     }
-    header img{
-        grid-column: 1/2;
-        justify-self: left;
-        padding: 20px 40px 20px 40px;
-        width: 80%;
+
+    .contrast {
+        grid-column: 3/4;
     }
-    header h1{
-        grid-column: 2/4;
+
     }
-} */
+    
