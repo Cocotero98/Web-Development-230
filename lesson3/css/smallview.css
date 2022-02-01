@@ -7,7 +7,9 @@ body{
 }
 main{
     padding: 10px;
+    background-color:white;
 }
+
 h1, h2, h3{
     font-family: 'Salsa', cursive;
 }
@@ -42,4 +44,10 @@ header{
 nav{
     background-color: #BBD686;
     align-items: center;
+}
+img{
+    width: -webkit-fill-available;
+}
+footer{
+    text-align: center;
 }

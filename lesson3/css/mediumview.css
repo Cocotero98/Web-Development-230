@@ -3,4 +3,10 @@
     nav ul { 
         flex-direction: row;
     }
+    body{
+        max-width: 1000px;
+    }
+    nav ul{
+        padding-inline-start: 40px;
+    }
 }
