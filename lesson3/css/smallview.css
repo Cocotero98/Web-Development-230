@@ -44,6 +44,7 @@ header{
 nav{
     background-color: #BBD686;
     align-items: center;
+    padding: 5px;
 }
 img{
     width: -webkit-fill-available;
