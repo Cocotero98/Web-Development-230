@@ -4,6 +4,9 @@ body{
     max-width: 500px;
     margin: auto;
 }
+main{
+    padding: 10px;
+}
 h1, h2, h3{
     font-family: 'Salsa', cursive;
 }
@@ -15,8 +18,16 @@ nav ul {
     flex-direction: column;
     /* flex-wrap: wrap; */
     align-items: center;
+    padding-inline-start: 0;
 }
 nav ul li { 
     flex: 1 1 auto; 
-    text-decoration: none;
+    list-style: none;
 } 
+nav ul li a{
+    text-decoration: none;
+}
+header{
+    text-align: center;
+    padding: 10px;
+}
