@@ -2,4 +2,7 @@
     body{
         max-width: 1500px;
     }
+    img {
+        width: 20%;
+    }
 }

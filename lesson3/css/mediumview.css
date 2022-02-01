@@ -9,4 +9,7 @@
     nav ul{
         padding-inline-start: 40px;
     }
+    img {
+        width: 20%;
+    }
 }
