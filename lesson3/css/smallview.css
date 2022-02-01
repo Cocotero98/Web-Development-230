@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Salsa&display=swap');
+
+body{
+    max-width: 500px;
+    margin: auto;
+}
+h1, h2, h3{
+    font-family: 'Salsa', cursive;
+}
+p {
+    font-family: 'Lato', sans-serif;
+}
+nav ul { 
+    display: flex; 
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    align-items: center;
+}
+nav ul li { 
+    flex: 1 1 auto; 
+    text-decoration: none;
+} 
