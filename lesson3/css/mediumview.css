@@ -12,4 +12,8 @@
     img {
         width: 20%;
     }
+    nav ul li{
+        display: flex;
+        justify-content: center;
+    }
 }
