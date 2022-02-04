@@ -17,4 +17,22 @@ function toggleMenu(){
 const x= document.getElementById('btn');
 x.onclick=toggleMenu;
 
+
+//Add show class to banner
+
+function toggleBanner(){
+    document.querySelector('#banner').classList.toggle('show');
+}
+const banner=document.getElementById('banner');
+const day=now.getDay()
+
+
+if(day===1){
+    toggleBanner()
+    console.log('hi')
+}
+else if(day===2){
+    toggleBanner()
+}
+
 // Wednesday, 24 July 2020.
