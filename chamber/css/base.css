@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Salsa&display=swap');
+
+
+body{
+    /* max-width: 500px; */
+    margin: auto;
+    background-color: #C4A381;
+}
+main{
+    padding: 10px;
+    background-color:white;
+}
+
+h1, h2, h3{
+    font-family: 'Salsa', cursive;
+}
+p {
+    font-family: 'Lato', sans-serif;
+}
+nav ul { 
+    display: none; 
+    flex-direction: column;
+    align-items: center;
+    padding-inline-start: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 5px;
+    background-color: #BBD686;
+}
+.button{
+    align-items: center;
+    grid-row: 1;
+    grid-column: 3/4;
+    justify-self: right;
+}
+nav ul.open{
+    display: flex;
+    gap: 20px;
+    
+}
+
+
+nav ul li { 
+    flex: 1 1 auto; 
+    list-style: none;
+    
+} 
+nav ul li a{
+    text-decoration: none;
+    font-size:1.2em;
+    padding: 10px;
+}
+a:hover{
+    background-color: #EEF1BD;
+}
+header{
+    text-align: center;
+    padding: 10px;
+    background-color: #a78986;
+    display: grid;
+    grid-template-columns: 15% 1fr 25%;
+    grid-template-rows: 45px 45px 10%;
+    padding-bottom: 0;
+}
+nav{
+    align-items: center;
+
+    grid-row: 4;
+    grid-column: 1/4;
+    justify-self: stretch;
+    align-self: baseline;
+    margin-right: -5px;
+    /* grid-row: 1;
+    grid-column: 3/4; */
+    /* justify-self: right; */
+}
+img{
+    width: -webkit-fill-available;
+}
+.logo{
+    width:75px;
+}
+footer{
+    text-align: center;
+}
+#time{
+    grid-row: 3;
+    grid-column: 1/4;
+    justify-self: stretch;
+    align-self: center;
+    padding: 10px;
+    border: 1px solid rgb(0 0 0 / 38%);
+    margin-top: 10px;
+}
+#facebook:hover, #twitter:hover{
+    background-color: transparent;
+}
+#facebook{
+    width: 30px;
+}
+#twitter{
+    width: 30px; 
+}
+.media{
+    display: flex;
+    grid-column: 3/4;
+    grid-row: 1;
+    gap:8px;
+
+}
+
+
+h1 {
+    margin: 0;
+    font-size: 1.7em;
+    grid-column: 2/3;
+    grid-row: 1;
+    justify-self: left;
+    padding: 10px;
+    padding-top: 5px;
+}
+h2{
+    grid-column: 2/3;
+    grid-row: 2;
+    font-size: 1.2em;
+    align-self: start;
+    justify-self: left;
+    padding: 10px;
+    margin: 0;
+    margin-top: -15px;
+}

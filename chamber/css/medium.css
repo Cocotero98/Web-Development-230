@@ -1,0 +1,27 @@
+@media only screen and (min-width: 35rem){
+
+    .button{display:none;}
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+    margin-top: 33px;
+    border-right: 1px solid rgba(0,0,0,0.5);
+    }
+    nav{
+        grid-row: 3;
+        grid-column: 1/4;
+        justify-self: center;
+        margin:0;
+        justify-self: stretch;
+    }
+    header{
+        grid-template-columns: 15% 1fr 30px;
+    }
+    .media{
+        flex-direction: column;
+    }
+    nav ul li{
+        border-left: 1px solid rgba(0,0,0,0.5);
+    }
+}
