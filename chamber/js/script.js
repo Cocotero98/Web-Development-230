@@ -7,8 +7,8 @@ const now = new Date();
 const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 	dateStyle: "full"
 }).format(now);
-
-
+const year=now.getFullYear()
+document.getElementById('year').innerHTML=year
 document.getElementById('time').innerHTML=fulldateUK
 
 function toggleMenu(){
