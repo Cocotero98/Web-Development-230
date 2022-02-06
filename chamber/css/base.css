@@ -266,4 +266,14 @@ body #banner.show{
 #hero img{
     height: -webkit-fill-available;
 }
+#hero{
+    position: relative;
+}
+#hero h3{
+    position: absolute;
+    top:15px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0.733);
+}
+
 
