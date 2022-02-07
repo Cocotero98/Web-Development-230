@@ -1,5 +1,20 @@
 @media only screen and (min-width: 64rem){
 
+    header{
+        grid-template-columns: 15% 1fr 30px;
+    }
+    .button{display:none;}
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+    margin-top: 33px;
+    border-right: 1px solid rgba(0,0,0,0.5);
+    }
+    .media{
+        flex-direction: column;
+    }
+
     #first #contact{
         grid-column: 3/4;
         grid-row: 1/3;
