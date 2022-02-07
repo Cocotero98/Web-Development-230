@@ -156,13 +156,13 @@ header h2, header h1{
 #event{
     background-color: rgb(197, 197, 197);
     border:1px solid rgb(0 0 0 / 38%);
-    height: 200px;
+    height: 100%;
     text-align: center;
 }
 #weather{
     background-color: rgb(197, 197, 197);
     border:1px solid rgb(0 0 0 / 38%);
-    height: 200px;
+    height: 100%;
 }
 #news{
     background-color: rgb(197, 197, 197);
