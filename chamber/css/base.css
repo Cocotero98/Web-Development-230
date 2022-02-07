@@ -58,7 +58,7 @@ header{
     padding: 10px;
     background-color: #a78986;
     display: grid;
-    grid-template-columns: 15% 1fr 25%;
+    grid-template-columns: 15% 1fr 30%;
     grid-template-rows: 45px 45px 10%;
     padding-bottom: 0;
 }
@@ -129,7 +129,8 @@ h2{
     justify-self: left;
     padding: 10px;
     margin: 0;
-    margin-top: -15px;
+    margin-top: -20px;
+    text-align:left;
 }
 footer .logo{
     margin-top: 10px;
