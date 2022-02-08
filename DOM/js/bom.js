@@ -1,11 +1,10 @@
 const input=document.querySelector('input')
 const list=document.querySelector('ul')
 const button=document.querySelector('button')
-function notEmpty(){
-    return input!=''
-}
+
+
 button.addEventListener('click', function(){
-    if (notEmpty()){
+    if (input.value!=''){
     let li=document.createElement('li')
     let btn=document.createElement('button')
     let values= input.value
