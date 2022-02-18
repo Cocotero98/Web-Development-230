@@ -1,0 +1,17 @@
+main div{
+    display:flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+main div img{
+    margin:10px;
+    width:300px;
+}
+img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
