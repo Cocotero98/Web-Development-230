@@ -275,6 +275,21 @@ body #banner.show{
     top:15px;
     left: 20px;
     background-color: rgba(255, 255, 255, 0.733);
+    padding: 0;
+}
+#fig{
+    height: -webkit-fill-available;
+    margin: 0;
+    padding: 0;
+}
+picture{
+    display: block;
+    width: 100%;
 }
 
-
+.nopadding{
+    padding:0
+}
+.nopadding img{
+    max-height: 180px;
+}

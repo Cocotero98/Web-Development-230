@@ -120,4 +120,7 @@
     main{
         grid-template-columns: 1fr 1fr 1fr 25%;
     }
+    .nopadding img{
+        max-height: 40 0px;
+    }
     }

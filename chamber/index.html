@@ -14,7 +14,7 @@
     <body>
         <div id='banner'><p><strong>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</strong></p></div>
             <header>
-                <img class='logo' src='images/logo.jpeg' alt='Pergamino Chamber Of Commerce Logo'>
+                <img class='logo' src='images/logo.webp' alt='Pergamino Chamber Of Commerce Logo'>
                 <h1>Pergamino<div id='complete'> Chamber of Commerce</div></h1>
                 <h2>Chamber of Commerce</h2>
                 <span id='time'></span>
@@ -37,7 +37,19 @@
             <main>
                 <section id='hero'>
                     <h3>Hero with site name and call to action</h3>
-                    <img src='images/Pergamino.jpg' alt='Pergamino, Plaza Merced'>
+                    <!-- <figure id="fig">
+                        <img src='images/wdd230-org-large.jpg' alt='Pergamino, Plaza Merced'
+                        srcset="images/wdd230-org-large.jpg 1500w,
+                        images/wdd230-org-medium.jpg 1024w,
+                        images/wdd230-org-small.jpg 560w,
+                        ">
+                    </figure> -->
+                    <picture class="nopadding">
+                        <source media="(max-width: 560px)" srcset="images/wdd230-org-small.jpg" class="nopadding">
+                        <source media="(max-width: 1024px)" srcset="images/wdd230-org-medium.jpg" class="nopadding">
+                        <source media="(max-width: 1500px)" srcset="images/wdd230-org-large.jpg" class="nopadding">
+                        <img src='images/wdd230-org-large.jpg' alt='Pergamino, Plaza Merced'>
+                    </picture>
                 </section>
                 <section id='event'>
                     <h3>Ballet Odille Presentation</h3>
@@ -46,7 +58,9 @@
                 </section>
                 <section id='weather'>
                     <h3>Weather</h3>
-                    <p>24°</p>
+                    <p id="temperature">30°C</p>
+                    <p id="windSpeed">2.5 km/h</p>
+                    <span id="windChill"></span>
                     <p>Sunny</p>
                 </section>
                 <section id='news'>
@@ -78,7 +92,7 @@
         <footer>
             
             <div id='first'>
-                <img class='logo' src='images/logo.jpeg' alt='Pergamino Chamber Of Commerce Logo'>
+                <img class='logo' src='images/logo.webp' alt='Pergamino Chamber Of Commerce Logo'>
                 <p><strong>Pergamino Chamber of Commerce</strong></p>
                 <p id='contact'>Agustin A. A. Aguilar | aguilarag98@gmail.com</p>
                 <a href='https://goo.gl/maps/st8eLSo3jBRN3AYj6'><strong>&#xf276;Location</strong></a></div>
@@ -92,5 +106,6 @@
             
         </footer>  
     <script src="js/script.js"></script>
+    <script src="js/windchill.js"></script>    
     </body>
 </html>
