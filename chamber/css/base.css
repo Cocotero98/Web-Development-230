@@ -292,20 +292,32 @@ picture{
     padding:0
 }
 .nopadding img{
-    max-height: 180px;
+    max-height: 550px;
+    width:100%
 }
 .discover{
     display: block;
 }
 .discover section div picture{
     width:unset;
+    max-height: 550px;
 }
 
 .discover section div{
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 
 .discover section{
     margin:0 50px 0 50px
+}
+.discover h1, .discover h2, .discover section h3{
+    text-align: center;
+}
+.discover h1{
+    margin-top: 20px;
+}
+.discover h2{
+    margin-bottom: 20px;
 }
