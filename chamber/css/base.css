@@ -294,3 +294,18 @@ picture{
 .nopadding img{
     max-height: 180px;
 }
+.discover{
+    display: block;
+}
+.discover section div picture{
+    width:unset;
+}
+
+.discover section div{
+    display: flex;
+    align-items: center;
+}
+
+.discover section{
+    margin:0 50px 0 50px
+}
