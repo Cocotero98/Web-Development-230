@@ -291,7 +291,7 @@ picture{
 .nopadding{
     padding:0
 }
-.nopadding img{
+.discover .nopadding img{
     max-height: 550px;
     width:100%
 }
