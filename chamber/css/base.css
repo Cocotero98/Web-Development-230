@@ -321,3 +321,12 @@ picture{
 .discover h2{
     margin-bottom: 20px;
 }
+
+source[data-src] {
+    filter: blur(2em);
+  }
+  
+img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
