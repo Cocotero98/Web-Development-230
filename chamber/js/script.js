@@ -64,14 +64,11 @@ window.onload=()=>{
 
 
 let counter= document.getElementById('counter')
-// let times=0
 let miliseconds=now.valueOf()
-// localStorage.setItem(times,miliseconds)
-//pero podes poner un if value=='' {crear+}
 if (localStorage.getItem(0).length<4){
     localStorage.setItem(0,miliseconds)
 }
-//borrar una vez creado para que no se redefina. Pero no se va a crear en la compu de otra persona :(
+
 localStorage.setItem(1,miliseconds)
 //calcular la diferencia
 let result=localStorage.getItem(1)-localStorage.getItem(0)
@@ -81,27 +78,7 @@ localStorage.setItem(0,localStorage.getItem(1))
 
 console.log(result)
 console.log(localStorage.getItem(0).length)
-// let calcluar= miliseconds/1000/60/60/24
-// let bigger=''
-// let secondBigger=''
-// let previous=-1
-// function forEachKey() {
 
-//     for (let i = 0; i < localStorage.length; i++) {
-//         let current=localStorage.key(i)
-//         if(current>previous){
-//             bigger=current
-//             secondBigger=previous
-//         }
-//         previous=localStorage.key(i)
-//     }
-//   }
-// let biggerValue=localStorage.getItem(bigger)
-// let previousValue=localStorage.getItem(previous)
-// let difference= biggerValue-previousValue
-// let inDays=difference/1000/60/60/24
-// let rounded =Math.round(inDays)
-// console.log(difference)
 let lastVisit=''
 if (resultInDays===0){
     lastVisit=`Last visit: Last 24 hours`
