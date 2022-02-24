@@ -65,7 +65,7 @@ window.onload=()=>{
 
 let counter= document.getElementById('counter')
 let miliseconds=now.valueOf()
-if (localStorage.getItem(0).length<4){
+if (localStorage.getItem(0)===null){
     localStorage.setItem(0,miliseconds)
 }
 
