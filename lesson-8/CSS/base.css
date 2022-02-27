@@ -5,13 +5,18 @@ body{
 }
 /* spacing */
 
+body main{
+  display: grid;
+}
 table {
     table-layout: fixed;
-    max-width: 500px;
+    max-width: 800px;
     width: 100%;
     border-collapse: collapse;
     border: 3px solid black;
     box-shadow: 10px 10px 30px gray;
+    justify-self: center;
+    margin:30px
   }
   
   th:nth-child(1) {
