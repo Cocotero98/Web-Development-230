@@ -330,3 +330,70 @@ img {
     filter: blur(0em);
     transition: filter 0.5s;
   }
+  form div{
+      display: flex;
+      flex-direction: column;
+  }
+form div label{
+    max-width: 200px;
+    width: 100%;
+}
+form div label[type="radio"]{
+    display: flex;
+}
+form div input{
+    width: 100%;
+}
+form div.horizontal{
+    flex-direction: row;
+    width: initial;
+}
+form div#choice{
+    gap:20px
+}
+form div.horizontal input{
+    align-self: center;
+}
+#submit{
+    width: 100px;
+    margin-top: 20px;
+}
+.column{
+    gap: 20px;
+}
+form{
+    margin:20px 0 20px 0;
+    max-width: 700px;
+    justify-self: center;
+    grid-row: 3;
+    grid-column: 1;
+    width:100%;
+}
+#joinpage{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+}
+#joinpage h2{
+    padding: 0px;
+    margin: 30px 0 30px 30px;
+    /* text-align: center; */
+    background-color: #EEF1BD;
+    box-shadow:  0px 3px 5px grey;
+    padding:10px 10px 10px 30px;
+    grid-column: 1;
+    grid-row: 1;
+    max-width: 700px;
+    width:100%;
+    justify-self: center;
+}
+#bdescription{
+    height: 200px;
+}
+#joinpage h3{
+    grid-row: 2;
+    grid-column: 1;
+    max-width: 700px;
+    width:100%;
+    justify-self: center;
+}

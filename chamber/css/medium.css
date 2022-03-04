@@ -120,7 +120,19 @@
     .discover picture img:hover{
             box-shadow: 0 0 50px #333;
           }
-
-
+    form div{
+        flex-direction: row;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin:40px
+    }
+    .column{
+        flex-direction: column;
+        gap: 20px;
+    }
+    
 
 }

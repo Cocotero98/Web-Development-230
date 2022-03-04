@@ -126,4 +126,7 @@
     #hero img{
         height: 100%;
     }
+    form{
+        grid-column: 1/5;
+    }
     }

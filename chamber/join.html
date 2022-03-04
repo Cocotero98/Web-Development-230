@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Chamber of Commerce by Agustin Aguilar in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+        <title>Pergamino's Chamber of Commerce</title>
+        <link rel="shortcut icon" href="favicon.ico">
+        <link href='css/normalize.css' rel="stylesheet" type = "text/css">
+        <link href="css/base.css" rel="stylesheet"  type = "text/css">
+        <link href="css/medium.css" rel="stylesheet"  type = "text/css">
+        <link href="css/large.css" rel="stylesheet"  type = "text/css">
+    </head>
+    <body>
+        <header>
+            <img class='logo' src='images/logo.webp' alt='Pergamino Chamber Of Commerce Logo'>
+            <h1>Pergamino<div id='complete'> Chamber of Commerce</div></h1>
+            <h2>Chamber of Commerce</h2>
+            <span id='time'></span>
+             <div class="media"><a id='facebook' href='facebook.com'><img src='images/face.png' alt='Facebook'></a>
+                <a id='twitter' href='twitter.com'><img src='images/twitter2.png' alt='Twitter'></a>    
+            </div>    
+            <div class='button'> <button id='btn'>&#9776;</button></div>           
+            <nav>
+
+               
+                <ul id='nav'>
+                    
+                    <li><a href='discover.html'>Discover</a></li>
+                    <li><a href=''>Directory</a></li>
+                    <li><a href='join.html'>Join</a></li>
+                    <li><a href=''>Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="joinpage">
+            <h2>Join us!</h2>
+            <h3>Complete the following form:</h3>
+            <form action="/thankyou.html" method="get">
+                <div>
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname" required ><br>                   
+                </div>
+                <div>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname" required ><br>                    
+                </div>
+                <div>
+                    <label for="position">Business position:</label>
+                    <input type="text" title="business position" id="position" name="position" pattern="[a-zA-Z0-9-_]+" minlength="7"><br>
+                </div>
+                <div>
+                    <label for="email" >Email:</label>
+                    <input type="email" id="email" name="email"placeholder="aaag82@gmail.com" required><br>
+                </div>
+                <div>
+                    <label for="celphone">Cell phone number:</label>
+                    <input type="tel" id="celphone" name="celphone" required><br>
+                </div>
+                <div>
+                    <label for="bname">Business name:</label>
+                    <input type="text" title="Business name" id="bname" name="bname" required><br>
+                </div>
+                <div class="column">
+                    <p>Select your membership level:</p>
+                    <div class='horizontal'><label for="NP">NP Membership</label><br><input type="radio" id="NP" name="membership" value="NP">
+                    </div>
+                    <div class='horizontal'><label for="bronze">Bronze Membership</label><br><input type="radio" id="bronze" name="membership" value="bronze">
+                    </div>
+                    <div class='horizontal'><label for="silver">Silver Membership</label><br><input type="radio" id="silver" name="membership" value="silver">
+                    </div>
+                    <div class='horizontal'><label for="gold">Gold Membership</label><br><input type="radio" id="gold" name="membership" value="gold">
+                    </div>
+                    <span id="benefits" name="benefits"></span>   
+                </div><br>
+                <div class="column"><label for="bdescription"> Describe your business:</label>
+                <textarea id="bdescription"></textarea></div>
+                <div><button type="submit" name="submit" id="submit">Submit</button></div>
+                <div><input type="hidden" value="" id="time" name="time"></div>
+                
+
+            </form>
+        </main>
+        <footer>
+            
+            <div id='first'>
+                <img class='logo' src='images/logo.webp' alt='Pergamino Chamber Of Commerce Logo'>
+                <p><strong>Pergamino Chamber of Commerce</strong></p>
+                <p id='contact'>Agustin A. A. Aguilar | aguilarag98@gmail.com</p>
+                <a href='https://goo.gl/maps/st8eLSo3jBRN3AYj6'><strong>&#xf276;Location</strong></a></div>
+            </div>
+            <div class='second'>
+                <p id='copy'>&copy;<span id='year'></span> Pergamino Chamber</p>
+                <p>Agustin A. A. Aguilar</p>
+                <p id='class'>WDD 230 Project</p>
+                <div id="lastModified"></div>
+            </div>
+            
+        </footer>  
+        <script src="js/script.js"></script>
+    </body>
+    
+</html>
+    
