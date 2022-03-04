@@ -129,4 +129,7 @@
     form{
         grid-column: 1/5;
     }
+    #thanks{
+        grid-column: 2/4;
+    }
     }

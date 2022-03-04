@@ -397,3 +397,10 @@ form{
     width:100%;
     justify-self: center;
 }
+#thanks{
+    align-self: center;
+    justify-self: center;
+    margin: 100px 0 100px 0;
+    padding: 20px;
+    background-color: #EEF1BD;
+}

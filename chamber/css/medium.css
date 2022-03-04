@@ -133,6 +133,9 @@
         flex-direction: column;
         gap: 20px;
     }
-    
+#thanks{
+    margin: 200px 0 200px 0;
+    padding: 30px;
+}    
 
 }
