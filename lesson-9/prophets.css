@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@800&display=swap');
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap:5px;
+    box-shadow: 1px 1px 20px black;
+    padding: 20px;
+    margin: 0 20px 20px 20px;
+    background-color: #DED9E8;
+  }
+body{
+    text-align: center;
+}
+.cards section{
+    border:0.5px solid #5D4D80;
+    background-color: #C3BAD6;
+    padding: 10px 0px;
+}
+.cards section img{
+    width:50%;
+    box-shadow: 1px 1px 10px black;
+}
+h1, h2{
+    color: #5D4D80;
+    font-family: 'Roboto Slab', serif;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
