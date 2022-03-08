@@ -343,6 +343,7 @@ form div label[type="radio"]{
 }
 form div input{
     width: 100%;
+    max-width: 20rem;
 }
 form div.horizontal{
     flex-direction: row;
@@ -354,10 +355,7 @@ form div#choice{
 form div.horizontal input{
     align-self: center;
 }
-#submit{
-    width: 100px;
-    margin-top: 20px;
-}
+
 .column{
     gap: 20px;
 }
@@ -376,26 +374,28 @@ form{
 }
 #joinpage h2{
     padding: 0px;
-    margin: 30px 0 30px 30px;
+    margin: 30px ;
     /* text-align: center; */
     background-color: #EEF1BD;
     box-shadow:  0px 3px 5px grey;
     padding:10px 10px 10px 30px;
     grid-column: 1;
     grid-row: 1;
-    max-width: 700px;
+    max-width: 20rem;
     width:100%;
     justify-self: center;
 }
 #bdescription{
     height: 200px;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 #joinpage h3{
     grid-row: 2;
     grid-column: 1;
-    max-width: 700px;
+    max-width: 20rem;
     width:100%;
     justify-self: center;
+    margin-bottom: -20px;
 }
 #thanks{
     align-self: center;
@@ -403,4 +403,30 @@ form{
     margin: 100px 0 100px 0;
     padding: 20px;
     background-color: #EEF1BD;
+}
+fieldset{
+    padding:20px;
+    margin:40px 0 40px 0;
+    border:2px solid #a78986;
+    border-radius: 10px;
+}
+fieldset input{
+    padding:.75rem 0;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+#joinBtn{
+    border:none;
+    padding:.75rem 0;
+    background-color: #EEF1BD;
+    border-radius: 1rem;
+    max-width: 20rem;
+    margin-top: 20px;
+    box-shadow:  0px 3px 5px grey;
+    font-size: 1rem;
+}
+fieldset input:required{
+    border-left: 6px solid orangered;
+}
+fieldset input:required:valid{
+    border-left: 6px solid green
 }
