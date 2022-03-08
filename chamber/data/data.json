@@ -1,0 +1,86 @@
+[
+    {
+        "name":"MAER",
+        "adress":"Pinto 829",
+        "phone":"2477289102",
+        "website":"maenergiasrenobables.com",
+        "image":"../images/directory/maer.jpeg"
+    },
+    {
+        "name":"",
+        "adress":"Echeverria 1029",
+        "phone":"2477282343",
+        "website":"",
+        "image":""
+    },
+    {
+        "name":"",
+        "adress":"Paso 230",
+        "phone":"2477876349",
+        "website":"",
+        "image":""
+    },
+    {
+        "name":"",
+        "adress":"Cordoba 620",
+        "phone":"2477291065",
+        "website":"",
+        "image":""
+    },
+    {
+        "name":"",
+        "adress":"Av. de Mayo 1440",
+        "phone":"2477980342",
+        "website":"",
+        "image":""
+    },
+    {
+        "name":"",
+        "adress":"Larrea 740",
+        "phone":"2477120954",
+        "website":"",
+        "image":""
+    },
+    {
+        "name":"",
+        "adress":"Neuquen 470",
+        "phone":"2477776620",
+        "website":"",
+        "image":""
+    },
+    {
+        "name":"",
+        "adress":"Av. de Mayo 1028",
+        "phone":"2477092278",
+        "website":"",
+        "image":""
+    },
+    {
+        "name":"",
+        "adress":"Av. de Mayo 2550",
+        "phone":"2477120887",
+        "website":"",
+        "image":""
+    },
+    {
+        "name":"",
+        "adress":"Bvd. Colon 920",
+        "phone":"",
+        "website":"2477111920",
+        "image":""
+    },
+    {
+        "name":"",
+        "adress":"San Nicolas 789",
+        "phone":"2477258822",
+        "website":"",
+        "image":""
+    },
+    {
+        "name":"",
+        "adress":"Bvd. Paraguay 1180",
+        "phone":"2477120009",
+        "website":"",
+        "image":""
+    }
+]
