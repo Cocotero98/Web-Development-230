@@ -137,5 +137,28 @@
     margin: 200px 0 200px 0;
     padding: 30px;
 }    
+.incomplete{
+    display:none
+}
+#complete{
+    display:block
+}
+fieldset input{
+    padding: 5px 5px;
+    margin-bottom: 5px;
+}
+#joinpage h2, #joinpage h3{
+    max-width: 700px;
+    justify-self: center;
+}
 
+#bdescription{
+    max-width: 32rem;
+}
+fieldset label{
+    align-self: center;
+}
+fieldset{
+    margin:15px 0
+}
 }
