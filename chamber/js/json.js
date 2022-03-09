@@ -34,4 +34,4 @@ const displayBusiness= function(business){
 
 fetch('https://cocotero98.github.io/wdd230/chamber/data/data.json')
 .then((response)=>{return response.json()})
-.then(displayBusiness)
+.then(doStuf)
