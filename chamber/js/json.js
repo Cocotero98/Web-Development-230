@@ -33,5 +33,5 @@ const displayBusiness= function(business){
 
 
 fetch('https://cocotero98.github.io/wdd230/chamber/data/data.json')
-.then((response)=>{if (response.ok){return response.json()}else{console.log('error')}})
+.then((response)=>{if (response.ok){return response.json(), console.log('yes')}else{console.log('error')}})
 .then(doStuf())
