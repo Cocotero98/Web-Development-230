@@ -33,5 +33,5 @@ const doStuf = function(data){
 
 
 fetch('https://cocotero98.github.io/wdd230/chamber/data/data.json')
-.then((response)=>{if (response.ok){console.log('yes')}else{console.log('error')}})
-.then(doStuf())
+.then((response)=>{if (response.ok){return response.json(), console.log('yes')}else{console.log('error')}})
+// .then(doStuf())
