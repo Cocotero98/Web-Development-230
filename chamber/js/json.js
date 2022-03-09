@@ -1,13 +1,13 @@
 let newElement= document.querySelector('#asd')
 let business= document.querySelector('.business')
 
-const doStuf = function(data){
-    console.log(data[0].image);
-    let image= data[0].image;
-    let img= document.createElement('img')
-    img.setAttribute('src', image);
-    newElement.appendChild(img)
-}
+// const doStuf = function(data){
+//     console.log(data[0].image);
+//     let image= data[0].image;
+//     let img= document.createElement('img')
+//     img.setAttribute('src', image);
+//     newElement.appendChild(img)
+// }
 // const displayBusiness= function(business){
 //     let image=business.image;
 //     let name=business.name;
@@ -34,4 +34,4 @@ const doStuf = function(data){
 
 fetch('https://cocotero98.github.io/wdd230/chamber/data/data.json')
 .then((response)=>{if (response.ok){return response.json(), console.log('yes')}else{console.log('error')}})
-// .then(doStuf())
+.then(function(data){console.log(data)})
