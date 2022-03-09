@@ -3,7 +3,7 @@ let benefits=document.getElementById('benefits')
 let choice=document.querySelectorAll('.member')
 let value=''
 let lastLoaded=document.getElementById('lastLoaded')
-let submitBtn=document.querySelector("#submit")
+let submitBtn=document.querySelector("#joinBtn")
 
 
 choice.forEach((i)=>{i.addEventListener('change', (event)=>benefitMessage(event))})
