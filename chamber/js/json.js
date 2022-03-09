@@ -28,7 +28,7 @@ const displayBusiness= function(business){
     card.appendChild(p1);
     card.appendChild(p2);
     card.appendChild(p3);
-    business.appendChild(card);
+    business.innerHTML=phone;
 }
 
 
