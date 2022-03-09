@@ -9,7 +9,7 @@ let newElement= document.querySelector('#asd')
 //     newElement.appendChild(img)
 // }
 const displayBusiness= function(business){
-    let business= document.querySelector('.business')
+    let businesses= document.querySelector('.business')
     let image=business.image;
     let name=business.name;
     let adress=business.adress;
@@ -29,7 +29,7 @@ const displayBusiness= function(business){
     card.appendChild(p1);
     card.appendChild(p2);
     card.appendChild(p3);
-    business.appendChild(card);
+    businesses.appendChild(card);
 }
 
 
