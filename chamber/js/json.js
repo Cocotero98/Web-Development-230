@@ -1,5 +1,5 @@
 let newElement= document.querySelector('#asd')
-let business= document.querySelector('.business')
+// let business= document.querySelector('.business')
 
 // const doStuf = function(data){
 //     console.log(data[0].image);
@@ -9,6 +9,7 @@ let business= document.querySelector('.business')
 //     newElement.appendChild(img)
 // }
 const displayBusiness= function(business){
+    let business= document.querySelector('.business')
     let image=business.image;
     let name=business.name;
     let adress=business.adress;
