@@ -34,4 +34,4 @@ let business= document.querySelector('.business')
 
 fetch('https://cocotero98.github.io/wdd230/chamber/data/data.json')
 .then((response)=>{if (response.ok){return response.json(), console.log('yes')}else{console.log('error')}})
-.then(function(data){console.log(data)})
+.then(function(data){console.table(data)})
