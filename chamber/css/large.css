@@ -145,7 +145,8 @@
         display: grid;
     }
     .businessList{
-        display:none
+        display:none;
+        margin:20px;
     }
 
     
