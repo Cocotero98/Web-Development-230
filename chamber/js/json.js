@@ -1,5 +1,5 @@
 let newElement= document.querySelector('#asd')
-let business= document.querySelector('#business')
+let business= document.querySelector('.business')
 
 const doStuf = function(data){
     console.log(data[0].image);
