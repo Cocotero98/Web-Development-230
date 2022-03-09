@@ -3,14 +3,14 @@
         "name":"MAER",
         "adress":"Pinto 829",
         "phone":"2477289102",
-        "website":"https://www.maenergiasrenobables.com/",
+        "website":"",
         "image":"images/directory/maer.jpeg"
     },
     {
         "name":"Fortuna's Restaurant",
         "adress":"Echeverria 1029",
         "phone":"2477282343",
-        "website":"https://www.fortunarest.com/",
+        "website":"",
         "image":"images/directory/descarga.png"
     }
 ]
