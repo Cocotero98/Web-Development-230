@@ -21,7 +21,7 @@ const displayBusiness= function(business){
     img.setAttribute('alt', name);
     let p1=document.createElement('p');
     let p2=document.createElement('p');
-    let p3=document.createElement('p')
+    let p3=document.createElement('a')
     p1.innerText=adress;
     p2.innerText=phone;
     p3.innerText=website;
