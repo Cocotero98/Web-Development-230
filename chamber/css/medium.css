@@ -161,4 +161,21 @@ fieldset label{
 fieldset{
     margin:15px 0
 }
+
+/* -------------------------------------------------Directory-------------------------------------------- */
+.businessList{
+    display: block;
+}
+.businessList section{
+    display: grid;
+    grid-template-columns: 22% 22% 20% 36%;
+}
+.business{
+    display:none;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+
 }
