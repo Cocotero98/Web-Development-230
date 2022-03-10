@@ -1,4 +1,4 @@
-let apiURL='https://api.openweathermap.org/data/2.5/weather?id=3841490&appid=0cd66e608ce7503372a31896aad04b0e'
+let apiURL='https://api.openweathermap.org/data/2.5/weather?id=3841490&units=metric&appid=0cd66e608ce7503372a31896aad04b0e'
 
 let temperatureInt=''
 let wSpeedInt=''
@@ -36,18 +36,21 @@ fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
-    let farenheitTemperature=jsObject.main.temp
-    let windSpeed=jsObject.wind.speed
+    let celsiusTemperature=jsObject.main.temp
+    let farenheitTemperature=f(celsiusTemperature)
+    let windSpeed=jsObject.wind.speed*3.6
     let windChill=windChillCalculator(farenheitTemperature,windSpeed)
-    let windChillInC=c(windChill)
-    let celsiusTemperature=c(farenheitTemperature)
+    
+    if (windChill!='N/A'){
+        let windChillInC=c(windChill)
+        windChillInC= `${windChillInC}°C`}else{windChillInC=windChill}
     let wSpeedKm=k(windSpeed)
-    document.querySelector('#temperature').textContent = `${celsiusTemperature.toFixed(0)}°C`;
-    document.querySelector('#windSpeed').textContent=`${wSpeedKm.toFixed(1)}km/h`
-    document.querySelector('#windChill').textContent=`${windChillInC}°C`
+    document.querySelector('#temperature').textContent = `Temperature: ${celsiusTemperature.toFixed(0)}°C`;
+    document.querySelector('#windSpeed').textContent=`Wind Speed: ${wSpeedKm.toFixed(1)}km/h`
+    document.querySelector('#windChill').textContent=`Wind Chill: ${windChillInC}`
     const iconsrc= `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
     const desc = jsObject.weather[0].description;
-    // document.querySelector('#weatherIcon').textContent = iconsrc;
+    document.querySelector('#condition').textContent = jsObject.weather[0].main;
     document.querySelector('#weatherIcon').setAttribute('src', iconsrc);
     document.querySelector('#weatherIcon').setAttribute('alt', desc);
     // document.querySelector('figcaption').textContent = desc;
