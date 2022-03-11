@@ -29,9 +29,28 @@ nav ul {
 }
 .button{
     align-items: center;
-    grid-row: 1;
+    /* grid-row: 1;
     grid-column: 3/4;
-    justify-self: right;
+    justify-self: right; */
+    grid-row: 5;
+    grid-column: 1/4;
+    justify-self: center;
+    align-self: end;
+    margin-top: 5px;
+    width:45px;
+    height: 45px;
+}
+#btn{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    color: #244f26;
+    background-color: white;
+    border: 2px solid #D0EFB1;
+    text-shadow: 1px 1px 5px #244f26;
+}
+#facebook,#twitter{
+    width:45px
 }
 nav ul.open{
     display: flex;
@@ -48,7 +67,7 @@ nav ul li {
 nav ul li a{
     text-decoration: none;
     font-size:1.2em;
-    padding: 10px;
+    padding: 12px;
 }
 a:hover{
     background-color: #E0978F;
@@ -58,14 +77,14 @@ header{
     padding: 10px;
     background-color: #244F26;
     display: grid;
-    grid-template-columns: 15% 1fr 30%;
+    grid-template-columns: 15% 1fr 15%;
     grid-template-rows: 45px 45px 10%;
     padding-bottom: 0;
 }
 nav{
     align-items: center;
 
-    grid-row: 4;
+    grid-row: 6;
     grid-column: 1/4;
     justify-self: stretch;
     align-self: baseline;
@@ -78,7 +97,7 @@ img{
     width: -webkit-fill-available;
 }
 .logo{
-    width:75px;
+    width:70px;
 }
 footer{
     text-align: center;
@@ -99,19 +118,18 @@ footer{
     background-color: transparent;
 }
 #facebook{
-    width: 30px;
+    width: 40px;
 }
 #twitter{
-    width: 30px; 
+    width: 40px; 
 }
 .media{
     display: flex;
-    grid-column: 3/4;
+    grid-column: 2/4;
     grid-row: 1;
     gap:8px;
-
+    justify-self: right;
 }
-
 
 h1 {
     margin: 0;
@@ -385,6 +403,7 @@ form{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 2fr;
+    background-color: white;
 }
 #joinpage h2{
     padding: 0px;
@@ -425,8 +444,9 @@ form{
 fieldset{
     padding:20px;
     margin:40px 0 40px 0;
-    border:2px solid #a78986;
+    border:2px solid #244F26;
     border-radius: 10px;
+    background-color: white;
 }
 fieldset input{
     padding:.75rem 0;
@@ -450,6 +470,7 @@ fieldset input:required{
 fieldset input:required:valid{
     border-left: 6px solid green
 }
+fieldset 
 
 /* -------------------------------------------------Directory-------------------------------------------- */
 
@@ -461,6 +482,8 @@ fieldset input:required:valid{
 .business section{
     box-shadow: 1px 3px 8px gray;
     padding: 15px;
+    text-align: center;
+    background-color: white;
 }
 .business section img{
     width:30%;
@@ -496,6 +519,9 @@ button#cardsDisplay, button#listDisplay{
 }
 .businessList{
     display: none;
+}
+.businessList section{
+    background-color: white;
 }
 .businessList section:nth-child(odd){
     background-color:#EEF1BD

@@ -13,12 +13,25 @@
         margin:0;
         justify-self: stretch;
     }
+    .button{
+        grid-row: 1;
+        grid-column: 3/4;
+        justify-self: right;
+        margin-top: 0;
+        align-self: start;
+    }
     header{
         grid-template-columns: 15% 1fr 20%;
     }
-
+    .media{
+        grid-column: 3/4;
+        justify-self: left;
+    }
     nav ul li{
         border-left: 1px solid rgba(0,0,0,0.5);
+    }
+    #facebook, #twitter{
+        width: 45px;
     }
     #first{
         display: grid;
@@ -104,9 +117,26 @@
         margin-top: 10px;
     }
     #join{
-        display: block;
+        display: flex;
         grid-row: 4;
         grid-column: 1/3;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #join p{
+      margin:10px  
+    }
+    #join button{
+        width: 100px;
+        color: white;
+        background-color: #f1c869;
+        text-shadow: 1px 1px 9px white;
+        border:none;
+        box-shadow: 1px 1px 10px black;
+    }
+    #join h3{
+        margin: 10px;
     }
     #event{
         grid-row: 5;
