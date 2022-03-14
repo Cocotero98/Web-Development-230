@@ -17,14 +17,14 @@ h1, h2, h3{
 p {
     font-family: 'Lato', sans-serif;
 }
-nav ul { 
-    display: none; 
+nav ul {
+    display: none;
     flex-direction: column;
     align-items: center;
     padding-inline-start: 0;
     padding-top: 10px;
     padding-bottom: 10px;
-    gap: 5px;
+    gap: 20px;
     background-color: #F1C869;
 }
 .button{
@@ -47,6 +47,9 @@ nav ul {
     color: #244f26;
     background-color: white;
     border: 2px solid #D0EFB1;
+    /* text-shadow: 1px 1px 5px #244f26; */
+}
+#btn:hover{
     text-shadow: 1px 1px 5px #244f26;
 }
 #facebook,#twitter{
@@ -54,20 +57,23 @@ nav ul {
 }
 nav ul.open{
     display: flex;
-    gap: 20px;
-    
+    /* gap: 20px; */
+
 }
 
 
-nav ul li { 
-    flex: 1 1 auto; 
+nav ul li {
+    flex: 1 1 auto;
     list-style: none;
-    
-} 
+    width: 100%;
+}
 nav ul li a{
     text-decoration: none;
     font-size:1.2em;
-    padding: 12px;
+    padding: 12px 0;
+    display: block;
+    width: 100%;
+    color: #244f26;
 }
 a:hover{
     background-color: #E0978F;
@@ -121,7 +127,7 @@ footer{
     width: 40px;
 }
 #twitter{
-    width: 40px; 
+    width: 40px;
 }
 .media{
     display: flex;
@@ -160,6 +166,7 @@ footer .second{
 footer div a{
     text-decoration: none;
     color:black;
+    text-decoration: underline;
 }
 header h2, header h1{
     margin-left: 10px;
@@ -180,6 +187,14 @@ header h2, header h1{
     height: 100%;
     text-align: center;
     border-radius: 10px;
+}
+#event a{
+    text-decoration: none;
+    color:#244f26;
+}
+#event a:hover{
+    background-color: transparent;
+    text-shadow:1px 1px 5px #244f26;
 }
 #weather{
     border:1px solid rgb(0 0 0 / 38%);
@@ -246,11 +261,16 @@ main section *{
 body #banner{
     text-align: center;
     display: none;
+    background-color: #E0978F;
+}
+body #banner p{
+    margin:0%;
+    padding: 16px 0;
 }
 /* bien */
 body #banner.show{
     display: block;
-} 
+}
 #complete{
     display:none;
 }
@@ -329,7 +349,8 @@ picture{
 }
 .discover .nopadding img{
     max-height: 550px;
-    width:100%
+    width:100%;
+    margin-bottom: 10px;
 }
 .discover{
     display: block;
@@ -361,7 +382,7 @@ picture{
 source[data-src] {
     filter: blur(2em);
   }
-  
+
 img {
     filter: blur(0em);
     transition: filter 0.5s;
@@ -474,7 +495,7 @@ fieldset input:required{
 fieldset input:required:valid{
     border-left: 6px solid green
 }
-fieldset 
+fieldset
 
 /* -------------------------------------------------Directory-------------------------------------------- */
 

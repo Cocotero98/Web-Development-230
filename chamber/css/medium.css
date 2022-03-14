@@ -5,7 +5,10 @@
         margin: 0;
     margin-top: 33px;
     border-right: 1px solid rgba(0,0,0,0.5);
+    gap:0;
+    padding: 0;
     }
+
     nav{
         grid-row: 3;
         grid-column: 1/4;
@@ -129,11 +132,23 @@
     }
     #join button{
         width: 100px;
-        color: white;
         background-color: #f1c869;
-        text-shadow: 1px 1px 9px white;
-        border:none;
         box-shadow: 1px 1px 10px black;
+        border:none;
+        
+    }
+    #join a{
+        text-decoration: none;
+        color:white;
+        width: 100px;
+        background-color: #f1c869;
+        box-shadow: 1px 1px 10px black;
+        border:none;
+    }
+    #join a:hover{
+        text-shadow: 1px 1px 9px white;
+        /* box-shadow: 1px 1px 10px black; */
+        /* background-color: transparent; */
     }
     #join h3{
         margin: 10px;
