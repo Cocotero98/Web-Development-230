@@ -211,6 +211,15 @@ header h2, header h1{
     border:1px solid rgb(0 0 0 / 38%);
     height: 200px;
     border-radius: 10px;
+    text-align: center;
+}
+#news a{
+    text-decoration: none;
+    color:#244f26;
+}
+#news a:hover{
+    background-color: transparent;
+    text-shadow:1px 1px 5px #244f26;
 }
 #spotLight{
     background-color: white;
