@@ -80,6 +80,9 @@
     #join p{
         margin-top:-10px  
       }
+    #join h3 {
+        margin: 10px 10px 0 10px;
+    }
     #event{
         grid-row: 1/2;
         grid-column: 1/2;
