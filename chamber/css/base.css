@@ -336,12 +336,21 @@ body #banner.show{
 #hero{
     position: relative;
 }
-#hero h3{
+#hero a{
     position: absolute;
-    top:15px;
-    left: 20px;
-    background-color: rgba(255, 255, 255, 0.733);
-    padding: 0;
+    top: 70%;
+    left: 50%;
+    background-color: rgb(241 200 105 / 58%);
+    margin-left: -80.7px;
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 1.3em;
+}
+#hero a:hover{
+    background-color: rgb(241 200 105);
+    box-shadow: 1px 1px 10px;
 }
 #fig{
     height: -webkit-fill-available;

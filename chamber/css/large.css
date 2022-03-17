@@ -73,6 +73,12 @@
         margin-top: 10px;
         margin-bottom: 0;
     }
+    #hero a{
+        top: 80%;
+        font-size: 1.4em;
+        margin-left: -84px;
+        padding: 10px;
+    }
     #join{
         grid-row: 3/4;
         grid-column: 1/2;
