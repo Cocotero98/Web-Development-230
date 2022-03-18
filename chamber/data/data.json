@@ -5,84 +5,96 @@
         "adress":"Pinto 829",
         "phone":"2477289102",
         "website":"https://www.maenergiasrenobables.com/",
-        "image":"images/directory/maer.webp"
-    },
+        "image":"images/directory/maer.webp",
+        "membership":"gold"
+        },
     {
         "name":"Fortuna's Restaurant",
         "adress":"Echeverria 1029",
         "phone":"2477282343",
         "website":"https://www.fortunarest.com/",
-        "image":"images/directory/descarga.webp"
-    },
+        "image":"images/directory/descarga.webp",
+        "membership":"bronze"
+        },
     {
         "name":"Zoom Sports",
         "adress":"Paso 230",
         "phone":"2477876349",
         "website":"https://www.zoomsports.com/",
-        "image":"images/directory/bike.webp"
-    },
+        "image":"images/directory/bike.webp",
+        "membership":"gold"
+        },
     {
         "name":"Colombia Diseña",
         "adress":"Cordoba 620",
         "phone":"2477291065",
         "website":"https://www.colombiadisena.com/",
-        "image":"images/directory/colombia.webp"
-    },
+        "image":"images/directory/colombia.webp",
+        "membership":"gold"
+        },
     {
         "name":"Heart Medical",
         "adress":"Av. de Mayo 1440",
         "phone":"2477980342",
         "website":"https://www.heartmedical.com/",
-        "image":"images/directory/hearts.webp"
-    },
+        "image":"images/directory/hearts.webp",
+        "membership":"gold"
+        },
     {
         "name":"Pentagon Insurences",
         "adress":"Larrea 740",
         "phone":"2477120954",
         "website":"https://www.pentagoninsurances.com/",
-        "image":"images/directory/house.webp"
-    },
+        "image":"images/directory/house.webp",
+        "membership":"gold"
+        },
     {
         "name":"David & Sons",
         "adress":"Neuquen 470",
         "phone":"2477776620",
         "website":"https://www.david&sons.com/",
-        "image":"images/directory/lgo2.webp"
-    },
+        "image":"images/directory/lgo2.webp",
+        "membership":"silver"
+        },
     {
         "name":"Photo Home",
         "adress":"Av. de Mayo 1028",
         "phone":"2477092278",
         "website":"https://www.photohome.com/",
-        "image":"images/directory/logo3.webp"
-    },
+        "image":"images/directory/logo3.webp",
+        "membership":"bronze"
+        },
     {
         "name":"WaterProof",
         "adress":"Av. de Mayo 2550",
         "phone":"2477120887",
         "website":"https://www.wproof.com/",
-        "image":"images/directory/logo5.webp"
-    },
+        "image":"images/directory/logo5.webp",
+        "membership":"bronze"
+        },
     {
         "name":"Techno House",
         "adress":"Bvd. Colon 920",
         "phone":"2477111920",
         "website":"https://www.technohouse.com/",
-        "image":"images/directory/logo6.webp"
-    },
+        "image":"images/directory/logo6.webp",
+        "membership":"silver"
+        },
     {
         "name":"Vidaurreta",
         "adress":"San Nicolas 789",
         "phone":"2477258822",
         "website":"https://www.vidaurreta.com/",
-        "image":"images/directory/logo7.webp"
-    },
+        "image":"images/directory/logo7.webp",
+        "membership":"bronze"
+        },
     {
         "name":"Mehaudy",
         "adress":"Bvd. Paraguay 1180",
         "phone":"2477120009",
         "website":"https://www.mehaudy.com/",
-        "image":"images/directory/logo8.webp"
-    }
-]
-}
+        "image":"images/directory/logo8.webp",
+        "membership":"silver"
+
+}    
+]}
