@@ -38,7 +38,7 @@ fetch(apiURL)
     console.log(jsObject);
     let celsiusTemperature=jsObject.main.temp
     let farenheitTemperature=f(celsiusTemperature)
-    let windSpeed=jsObject.wind.speed*3.6
+    let windSpeed=jsObject.wind.speed*3600/1609.344
     let windChill=windChillCalculator(farenheitTemperature,windSpeed)
     
     if (windChill!='N/A'){
