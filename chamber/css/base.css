@@ -575,10 +575,10 @@ button#cardsDisplay, button#listDisplay{
     display: none;
 }
 .businessList section{
-    background-color: white;
+    background-color: #D0EFB1;
 }
 .businessList section:nth-child(odd){
-    background-color:#EEF1BD
+    background-color:white
 }
 .businessList section p, .businessList section a{
     margin:0;
