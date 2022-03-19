@@ -46,40 +46,22 @@ const displayBusiness= function(business){
 const cards= function(){
     document.querySelector('.business').style.display='grid'
     document.querySelector('.businessList').style.display='none'
-    // document.querySelector('.businessList').classList.toggle('hide')
-    // document.querySelector('.business').classList.toggle('show')
-    // console.log(defaultDisplay)
+
 }
 const list=function(){
     document.querySelector('.business').style.display='none'
     document.querySelector('.businessList').style.display='block'
-    // document.querySelector('.businessList').classList.toggle('show')
-    // document.querySelector('.business').classList.toggle('hide')
-    // console.log(defaultDisplay)
 }
-
-// const display= function(defaultDisplay){
-//     if (defaultDisplay===true){
-//         document.querySelector('.businessList').classList.add('hide')
-//         document.querySelector('.business').classList.add('show')
-//     }
-//     else{
-//         document.querySelector('.businessList').classList.add('show')
-//         document.querySelector('.business').classList.add('hide')
-//     }
-// }
 
 
 fetch('https://cocotero98.github.io/wdd230/chamber/data/data.json')
     .then(function(respone){return respone.json()})
     .then(function(data){
         let businessList=data['business'];
-        console.log(businessList[0]);
         businessList.forEach(displayBusiness);
     })
 
-const trying=function(){console.log('cardsdisplay')}
+
 
 cardsDisplay.addEventListener('click',cards)
 listDisplay.addEventListener('click',list)
-// display(defaultDisplay)

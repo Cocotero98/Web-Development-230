@@ -2,9 +2,6 @@ let apiURL='https://api.openweathermap.org/data/2.5/weather?id=3841490&units=met
 
 let temperatureInt=''
 let wSpeedInt=''
-// let temperature=document.getElementById('temperature').innerHTML
-// let windSpeed=document.getElementById('windSpeed').innerHTML
-
 
 let f=function(c){
     return (c*1.8)+32
@@ -35,7 +32,6 @@ let windChillCalculator= function(t,s){
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
     let celsiusTemperature=jsObject.main.temp
     let farenheitTemperature=f(celsiusTemperature)
     let windSpeed=jsObject.wind.speed*3600/1609.344
@@ -53,12 +49,4 @@ fetch(apiURL)
     document.querySelector('#condition').textContent = jsObject.weather[0].main;
     document.querySelector('#weatherIcon').setAttribute('src', iconsrc);
     document.querySelector('#weatherIcon').setAttribute('alt', desc);
-    // document.querySelector('figcaption').textContent = desc;
   });
-// wSpeedInt=parseFloat(windSpeed)
-// temperatureInt=parseInt(temperature,10)
-
-
-// let resultInFarenheit=windChillCalculator(farenheit,miles)
-// let windChillInC=c(resultInFarenheit)
-// document.getElementById('windChill').innerHTML=`Wind Chill: ${windChillInC.toFixed(1)}°C`
