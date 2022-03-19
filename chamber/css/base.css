@@ -236,6 +236,7 @@ header h2, header h1{
     margin:10px;
     margin-bottom: 0;
     border-radius: 10px;
+    align-content: center;
 }
 #spotLight .spotlightTwo{
     flex: 1 1 auto;
@@ -252,6 +253,7 @@ header h2, header h1{
     height:150px;
     margin:10px;
     border-radius: 10px;
+    align-content: center;
 }
 #join{
     display: none;
@@ -315,6 +317,7 @@ body #banner.show{
     justify-items: center;
     text-align: center;
     line-height: 1.5;
+    align-content: center;
 }
 
 #spotLight .spotlightTwo img{
@@ -626,4 +629,27 @@ main section h3{
 }
 .discoverPMargin{
     margin-top:50px;
+}
+/* -------------------------------------Contact page--------------------------------------------- */
+#contactpage p, #contactpage h2, #contactpage h3{
+    grid-column: 1;
+}
+#contactpage h2{
+    grid-row: 1;
+    margin-top: 10px;
+}
+#contactpage form fieldset{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 0;
+}
+#contactpage form{
+    margin-top: 20px;
+}
+#contactpage p{
+    padding: 0 10px;
+}
+#contactpage h3{
+    padding: 0 10px;
 }

@@ -107,7 +107,7 @@
         justify-items: center;
         text-align: center;
         line-height: 1.2;
-        align-content: end;
+        align-content: center;
     }
     
     #spotLight .spotlightThree img{
@@ -123,9 +123,9 @@
         margin: 0;
         grid-column: 2/3;
     }
-    #spotLight .spotlightThree p{
+    /* #spotLight .spotlightThree p{
         margin-top: -10px;
-    }
+    } */
 
     #complete{
         display: inline;

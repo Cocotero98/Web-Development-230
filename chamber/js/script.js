@@ -86,3 +86,5 @@ if (resultInDays===0){
 else{lastVisit=`Last visit: ${resultInDays} days ago`}
 
 counter.innerText=lastVisit
+
+
