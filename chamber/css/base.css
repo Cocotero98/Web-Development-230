@@ -461,7 +461,7 @@ form{
     padding: 0px;
     margin: 30px ;
     /* text-align: center; */
-    background-color: #EEF1BD;
+    /* background-color: #EEF1BD; */
     box-shadow:  0px 3px 5px grey;
     padding:10px 10px 10px 30px;
     grid-column: 1;
@@ -469,6 +469,8 @@ form{
     max-width: 20rem;
     width:100%;
     justify-self: center;
+    background-color: #D0EFB1;
+    border-radius: 40px 0;
 }
 #bdescription{
     height: 200px;
@@ -508,7 +510,7 @@ fieldset input{
 #joinBtn{
     border:none;
     padding:.75rem 0;
-    background-color: #EEF1BD;
+    background-color: #D0EFB1;
     border-radius: 1rem;
     max-width: 20rem;
     margin-top: 20px;
@@ -637,6 +639,13 @@ main section h3{
 #contactpage h2{
     grid-row: 1;
     margin-top: 10px;
+    align-self: center;
+    justify-self: center;
+    background-color: #D0EFB1;
+    border-radius: 40px 0;
+    box-shadow: 0px 3px 5px grey;
+    width: 70%;
+    text-align: center;
 }
 #contactpage form fieldset{
     display: flex;
@@ -645,11 +654,41 @@ main section h3{
     margin-top: 0;
 }
 #contactpage form{
-    margin-top: 20px;
+    margin: 20px 0;
 }
 #contactpage p{
     padding: 0 10px;
 }
 #contactpage h3{
     padding: 0 10px;
+    align-self: center;
+    justify-self: center;
+    text-shadow: 1px 1px 1px #f1c869;
+}
+#contactpage #visitus, #contactpage #chambercontact{
+    background-color: white;
+    border: 3px solid #244f26;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#visitus a{
+    color:#244F26
+}
+#question{
+    height: 150px;
+}
+#send-comments{
+    margin: 10px;
+    height: 45px;
+    max-width: 100px;
+    width: 100%;
+    align-self: center;
+    background-color: #D0EFB1;
+}
+#contactpage{
+    background-color: white;
 }

@@ -37,33 +37,44 @@
         <main id="contactpage">
             <h2>Contact the Chamber</h2>
             <p>Send us your questions or comments using the form below. We will answer promptly.</p>
-            <form>
+            <form action="thankyou.html" method="get"> 
                 <fieldset>
-                    <legend>CONTACT INFORMATION</legend>
+                    <legend><strong>CONTACT INFORMATION</strong></legend>
                     <label for="name">Name</label>
                     <input type="text" title="complete name" id="name" name="name" placeholder="Max Everet" required><br>
                     <label for="city">City</label>
-                    <input type="text" title="city" id="city" name="city">
+                    <input type="text" title="city" id="city" name="city" placeholder="Pergamino">
                     <label for="state">State</label>
-                    <input type="text" title="state" id="state" name="state"><br>
+                    <input type="text" title="state" id="state" name="state" placeholder="Buenos Aires"><br>
                     <label for="country">Country</label>
-                    <input type="text" title="country" id="country" name="country">
+                    <input type="text" title="country" id="country" name="country" placeholder="Argentina">
                     <label for="postalcode">Postal Code</label>
-                    <input type="text" title="postalcode" id="postalcode" name="postalcode"><br>
+                    <input type="text" title="postalcode" id="postalcode" name="postalcode" placeholder="B2700"><br>
                     <label for="phone">Phone*</label>
-                    <input type="tel" title="phone" id="phone" name="phone" required>
+                    <input type="tel" title="phone" id="phone" name="phone" placeholder='24770293210'required>
                     <label for="email">Email adress*</label>
-                    <input type="email" title="email adress" id="email" name="email" required><br>
+                    <input type="email" title="email adress" id="email" name="email" placeholder="max-everet92@gmail.com" required><br>
                     <label for="question">Comments/Questions*</label>
-                    <input type="text" title="question" id="question" name="question" required>
+                    <input type="text" title="Comment/Question" id="question" name="question" required>
+                    <button type="submit" title="Send comments" id="send-comments" name="send-comments">Send</button>
                 </fieldset>
             </form>
-            <div>
+            <div id="visitus">
                 <h3>Visit Us</h3>
                 <p>Pergamino Chamber of Commerce</p>
+                <img src="images/logo.webp" alt="Pergamino Chamber of Commerce logo" class="logo">
                 <p>Av. de Mayo 2330</p>
+                <a href="https://goo.gl/maps/st8eLSo3jBRN3AYj6">See in map</a>
                 <P>Mondays to Fridays <br>9:00AM-5:00PM</P>
+                <h3>Contact</h3>
+                <p>Phone: 2477930212</p>
+                <p>Email: pergaminococ@gmail.com</p>
             </div>
+            <!-- <div id="chambercontact">
+                <h3>Contact</h3>
+                <p>Phone: 2477930212</p>
+                <p>Email: pergaminococ@gmail.com</p>
+            </div> -->
         </main>
         <footer>
             
