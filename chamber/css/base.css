@@ -557,6 +557,9 @@ button#cardsDisplay, button#listDisplay{
     margin: 10px;
     font-size: 20px;
 }
+button#cardsDisplay{
+    font-size: 25px;
+}
 .display{
     display: flex;
     flex-direction: row;
