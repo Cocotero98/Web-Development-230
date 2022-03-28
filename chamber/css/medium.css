@@ -5,7 +5,10 @@
         margin: 0;
     margin-top: 33px;
     border-right: 1px solid rgba(0,0,0,0.5);
+    gap:0;
+    padding: 0;
     }
+
     nav{
         grid-row: 3;
         grid-column: 1/4;
@@ -129,11 +132,23 @@
     }
     #join button{
         width: 100px;
-        color: white;
         background-color: #f1c869;
-        text-shadow: 1px 1px 9px white;
-        border:none;
         box-shadow: 1px 1px 10px black;
+        border:none;
+        
+    }
+    #join a{
+        text-decoration: none;
+        color:white;
+        width: 100px;
+        background-color: #f1c869;
+        box-shadow: 1px 1px 10px black;
+        border:none;
+    }
+    #join a:hover{
+        text-shadow: 1px 1px 9px white;
+        /* box-shadow: 1px 1px 10px black; */
+        /* background-color: transparent; */
     }
     #join h3{
         margin: 10px;
@@ -187,10 +202,12 @@ fieldset input{
     margin-bottom: 5px;
 }
 #joinpage h2, #joinpage h3{
-    max-width: 700px;
+    max-width: 650px;
     justify-self: center;
 }
-
+#joinpage h2{
+    margin-left: 60px;
+}
 #bdescription{
     max-width: 32rem;
 }
@@ -215,6 +232,27 @@ fieldset{
 }
 
 
-
+#contactpage p{
+    justify-self: center;
+    text-align: center;
+}
+#visitus, #chambercontact{max-width: 700px;
+justify-self: center;
+width: 100%;}
+#visitus h3{text-align: center;}
+#contactpage form fieldset{
+    display:grid;
+    grid-template-columns: 25% 1fr;
+}
+#contactpage form fieldset label{
+    grid-column: 1/2;
+}
+#contactpage form fieldset input{
+    grid-column: 2/3;
+}
+#send-comments{
+    grid-column: 1/3;
+    justify-self: center;
+}
 
 }

@@ -16,15 +16,16 @@ h1, h2, h3{
 }
 p {
     font-family: 'Lato', sans-serif;
+    line-height: 1.5em;
 }
-nav ul { 
-    display: none; 
+nav ul {
+    display: none;
     flex-direction: column;
     align-items: center;
     padding-inline-start: 0;
     padding-top: 10px;
     padding-bottom: 10px;
-    gap: 5px;
+    gap: 20px;
     background-color: #F1C869;
 }
 .button{
@@ -47,6 +48,9 @@ nav ul {
     color: #244f26;
     background-color: white;
     border: 2px solid #D0EFB1;
+    /* text-shadow: 1px 1px 5px #244f26; */
+}
+#btn:hover{
     text-shadow: 1px 1px 5px #244f26;
 }
 #facebook,#twitter{
@@ -54,20 +58,23 @@ nav ul {
 }
 nav ul.open{
     display: flex;
-    gap: 20px;
-    
+    /* gap: 20px; */
+
 }
 
 
-nav ul li { 
-    flex: 1 1 auto; 
+nav ul li {
+    flex: 1 1 auto;
     list-style: none;
-    
-} 
+    width: 100%;
+}
 nav ul li a{
     text-decoration: none;
     font-size:1.2em;
-    padding: 12px;
+    padding: 12px 0;
+    display: block;
+    width: 100%;
+    color: #244f26;
 }
 a:hover{
     background-color: #E0978F;
@@ -121,7 +128,7 @@ footer{
     width: 40px;
 }
 #twitter{
-    width: 40px; 
+    width: 40px;
 }
 .media{
     display: flex;
@@ -160,6 +167,7 @@ footer .second{
 footer div a{
     text-decoration: none;
     color:black;
+    text-decoration: underline;
 }
 header h2, header h1{
     margin-left: 10px;
@@ -181,6 +189,14 @@ header h2, header h1{
     text-align: center;
     border-radius: 10px;
 }
+#event a{
+    text-decoration: none;
+    color:#244f26;
+}
+#event a:hover{
+    background-color: transparent;
+    text-shadow:1px 1px 5px #244f26;
+}
 #weather{
     border:1px solid rgb(0 0 0 / 38%);
     height: 100%;
@@ -195,6 +211,15 @@ header h2, header h1{
     border:1px solid rgb(0 0 0 / 38%);
     height: 200px;
     border-radius: 10px;
+    text-align: center;
+}
+#news a{
+    text-decoration: none;
+    color:#244f26;
+}
+#news a:hover{
+    background-color: transparent;
+    text-shadow:1px 1px 5px #244f26;
 }
 #spotLight{
     background-color: white;
@@ -211,6 +236,7 @@ header h2, header h1{
     margin:10px;
     margin-bottom: 0;
     border-radius: 10px;
+    align-content: center;
 }
 #spotLight .spotlightTwo{
     flex: 1 1 auto;
@@ -227,6 +253,7 @@ header h2, header h1{
     height:150px;
     margin:10px;
     border-radius: 10px;
+    align-content: center;
 }
 #join{
     display: none;
@@ -246,11 +273,16 @@ main section *{
 body #banner{
     text-align: center;
     display: none;
+    background-color: #E0978F;
+}
+body #banner p{
+    margin:0%;
+    padding: 16px 0;
 }
 /* bien */
 body #banner.show{
     display: block;
-} 
+}
 #complete{
     display:none;
 }
@@ -267,9 +299,11 @@ body #banner.show{
 #spotLight .spotlightOne img{
     width: 100%;
     justify-self: center;
-    align-self: stretch;
+    align-self: center;
     grid-row: 1/3;
     max-width: 100px;
+    max-height: 100px;
+    height: 100%;
 }
 #spotLight .spotlightOne h3{
     margin: 0;
@@ -283,14 +317,17 @@ body #banner.show{
     justify-items: center;
     text-align: center;
     line-height: 1.5;
+    align-content: center;
 }
 
 #spotLight .spotlightTwo img{
     width: 100%;
     justify-self: center;
-    align-self: stretch;
+    align-self: center;
     grid-row: 1/3;
     max-width: 100px;
+    max-height: 120px;
+    height: 100%;
 }
 #spotLight .spotlightTwo h3{
     margin: 0;
@@ -302,12 +339,21 @@ body #banner.show{
 #hero{
     position: relative;
 }
-#hero h3{
+#hero a{
     position: absolute;
-    top:15px;
-    left: 20px;
-    background-color: rgba(255, 255, 255, 0.733);
-    padding: 0;
+    top: 70%;
+    left: 50%;
+    background-color: rgb(241 200 105 / 58%);
+    margin-left: -80.7px;
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 1.3em;
+}
+#hero a:hover{
+    background-color: rgb(241 200 105);
+    box-shadow: 1px 1px 10px;
 }
 #fig{
     height: -webkit-fill-available;
@@ -325,7 +371,13 @@ picture{
 }
 .discover .nopadding img{
     max-height: 550px;
-    width:100%
+    width:100%;
+    margin-bottom: 10px;
+}
+.discover section p{
+    line-height: 1.5em;
+    max-width: 750px;
+    width:100%;
 }
 .discover{
     display: block;
@@ -342,7 +394,7 @@ picture{
 }
 
 .discover section{
-    margin:0 50px 0 50px
+    margin:0 50px 0 50px;
 }
 .discover h1, .discover h2, .discover section h3{
     text-align: center;
@@ -357,7 +409,7 @@ picture{
 source[data-src] {
     filter: blur(2em);
   }
-  
+
 img {
     filter: blur(0em);
     transition: filter 0.5s;
@@ -409,7 +461,7 @@ form{
     padding: 0px;
     margin: 30px ;
     /* text-align: center; */
-    background-color: #EEF1BD;
+    /* background-color: #EEF1BD; */
     box-shadow:  0px 3px 5px grey;
     padding:10px 10px 10px 30px;
     grid-column: 1;
@@ -417,6 +469,8 @@ form{
     max-width: 20rem;
     width:100%;
     justify-self: center;
+    background-color: #D0EFB1;
+    border-radius: 40px 0;
 }
 #bdescription{
     height: 200px;
@@ -456,7 +510,7 @@ fieldset input{
 #joinBtn{
     border:none;
     padding:.75rem 0;
-    background-color: #EEF1BD;
+    background-color: #D0EFB1;
     border-radius: 1rem;
     max-width: 20rem;
     margin-top: 20px;
@@ -470,7 +524,7 @@ fieldset input:required{
 fieldset input:required:valid{
     border-left: 6px solid green
 }
-fieldset 
+fieldset
 
 /* -------------------------------------------------Directory-------------------------------------------- */
 
@@ -501,6 +555,10 @@ button#cardsDisplay, button#listDisplay{
     height: 45px;
     display: inline;
     margin: 10px;
+    font-size: 20px;
+}
+button#cardsDisplay{
+    font-size: 25px;
 }
 .display{
     display: flex;
@@ -521,14 +579,17 @@ button#cardsDisplay, button#listDisplay{
     display: none;
 }
 .businessList section{
-    background-color: white;
+    background-color: #D0EFB1;
 }
 .businessList section:nth-child(odd){
-    background-color:#EEF1BD
+    background-color:white
 }
 .businessList section p, .businessList section a{
     margin:0;
     padding:5px;
+}
+.businessList section a{
+    width:min-content;
 }
 .businessList section{
     padding:10px;
@@ -571,4 +632,67 @@ main section h3{
     grid-column: 2/3;
     grid-row:5;
     padding: 0;
+}
+.discoverPMargin{
+    margin-top:50px;
+}
+/* -------------------------------------Contact page--------------------------------------------- */
+#contactpage p, #contactpage h2, #contactpage h3{
+    grid-column: 1;
+}
+#contactpage h2{
+    grid-row: 1;
+    margin-top: 10px;
+    align-self: center;
+    justify-self: center;
+    background-color: #D0EFB1;
+    border-radius: 40px 0;
+    box-shadow: 0px 3px 5px grey;
+    width: 70%;
+    text-align: center;
+}
+#contactpage form fieldset{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 0;
+}
+#contactpage form{
+    margin: 20px 0;
+}
+#contactpage p{
+    padding: 0 10px;
+}
+#contactpage h3{
+    padding: 0 10px;
+    align-self: center;
+    justify-self: center;
+    text-shadow: 1px 1px 1px #f1c869;
+}
+#contactpage #visitus, #contactpage #chambercontact{
+    background-color: white;
+    border: 3px solid #244f26;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#visitus a{
+    color:#244F26
+}
+#question{
+    height: 150px;
+}
+#send-comments{
+    margin: 10px;
+    height: 45px;
+    max-width: 100px;
+    width: 100%;
+    align-self: center;
+    background-color: #D0EFB1;
+}
+#contactpage{
+    background-color: white;
 }

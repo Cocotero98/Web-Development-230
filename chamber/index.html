@@ -31,26 +31,20 @@
                         <li><a href='discover.html'>Discover</a></li>
                         <li><a href='directory.html'>Directory</a></li>
                         <li><a href='join.html'>Join</a></li>
-                        <li><a href=''>Contact</a></li>
+                        <li><a href='contact.html'>Contact</a></li>
                     </ul>
                 </nav>
             </header>
             <main>
                 <section id='hero'>
-                    <h3>Hero with site name and call to action</h3>
-                    <!-- <figure id="fig">
-                        <img src='images/wdd230-org-large.jpg' alt='Pergamino, Plaza Merced'
-                        srcset="images/wdd230-org-large.jpg 1500w,
-                        images/wdd230-org-medium.jpg 1024w,
-                        images/wdd230-org-small.jpg 560w,
-                        ">
-                    </figure> -->
+                    
                     <picture class="nopadding">
-                        <source media="(max-width: 560px)" srcset="images/wdd230-org-small.jpg" class="nopadding">
-                        <source media="(max-width: 1024px)" srcset="images/wdd230-org-medium.jpg" class="nopadding">
-                        <source media="(max-width: 1500px)" srcset="images/wdd230-org-large.jpg" class="nopadding">
-                        <img src='images/wdd230-org-large.jpg' alt='Pergamino, Plaza Merced'>
+                        <source media="(max-width: 560px)" srcset="images/PlazaMerced_small.webp" class="nopadding">
+                        <source media="(max-width: 1023px)" srcset="images/PlazaMerced_medium1.webp" class="nopadding">
+                        <source media="(max-width: 1500px)" srcset="images/PlazaMerced_Large.webp" class="nopadding">
+                        <img src='images/PlazaMerced_Large.webp' alt='Pergamino, Plaza Merced'>
                     </picture>
+                    <a href="discover.html">Explore the City</a>
                 </section>
                 <section id='event'>
                     <h3>Ballet Odille Presentation</h3>
@@ -59,7 +53,7 @@
                 </section>
                 <section id='weather'>
                     <h3>Weather</h3>
-                    <img id="weatherIcon">
+                    <img id="weatherIcon" src="images/placeholder.png" alt="Weather Icon">
                     <p id="temperature"></p>
                     <p id="windSpeed"></p>
                     <span id="windChill"></span>
@@ -67,7 +61,8 @@
                 </section>
                 <section id='news'>
                     <h3>News Release</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur voluptas esse voluptate quo temporibus hic dolorem unde iusto ea pariatur doloremque, expedita consequuntur a dolore cumque eius provident ut sed.</p>
+                    <p>A local theatrical production was selected for the National Festival of Theater for Women</p>
+                    <a href="index.html">Read more...</a>
                 </section>
                 <section id='spotLight'>
                     <div class='spotlightOne'>
@@ -89,7 +84,7 @@
                 <section id='join'>
                     <h3>Join us!</h3>
                     <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
-                    <button><strong>Join</strong></button>
+                    <a href="join.html"><strong>Join</strong></a>
                 </section>
             </main>
         <footer>
@@ -111,5 +106,6 @@
         </footer>  
     <script src="js/script.js"></script>
     <script src="js/windchill.js"></script>    
+    <script src="js/newJson.js"></script>
     </body>
 </html>

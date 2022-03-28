@@ -7,7 +7,7 @@ let submitBtn=document.querySelector("#joinBtn")
 
 
 choice.forEach((i)=>{i.addEventListener('change', (event)=>benefitMessage(event))})
-function benefitMessage(i){console.log(i.target.value)
+function benefitMessage(i){
         if(i.target.value==='NP'){
             message='NP Membership is for non profit organizations and there is no fee'
         }

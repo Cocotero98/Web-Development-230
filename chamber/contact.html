@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Chamber of Commerce by Agustin Aguilar in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+        <title>Pergamino's Chamber of Commerce</title>
+        <link rel="shortcut icon" href="favicon.ico">
+        <link href='css/normalize.css' rel="stylesheet" type = "text/css">
+        <link href="css/base.css" rel="stylesheet"  type = "text/css">
+        <link href="css/medium.css" rel="stylesheet"  type = "text/css">
+        <link href="css/large.css" rel="stylesheet"  type = "text/css">
+    </head>
+    <body>
+        <header>
+            <img class='logo' src='images/logo.webp' alt='Pergamino Chamber Of Commerce Logo'>
+            <h1 id='complete'>Pergamino Chamber of Commerce</h1>
+            <h1 class="incomplete">Pergamino</h1>
+            <h2 class="incomplete">Chamber of Commerce</h2>
+            <span id='time'></span>
+             <div class="media"><a id='facebook' href='facebook.com'><img src='images/face.png' alt='Facebook'></a>
+                <a id='twitter' href='twitter.com'><img src='images/twitter2.png' alt='Twitter'></a>    
+            </div>    
+            <div class='button'> <button id='btn'>&#9776;</button></div>           
+            <nav>
+
+               
+                <ul id='nav'>
+                    <li><a href='index.html'>Home</a></li>
+                    <li><a href='discover.html'>Discover</a></li>
+                    <li><a href='directory.html'>Directory</a></li>
+                    <li><a href='join.html'>Join</a></li>
+                    <li><a href=''>Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="contactpage">
+            <h2>Contact the Chamber</h2>
+            <p>Send us your questions or comments using the form below. We will answer promptly.</p>
+            <form action="thankyou.html" method="get"> 
+                <fieldset>
+                    <legend><strong>CONTACT INFORMATION</strong></legend>
+                    <label for="name">Name</label>
+                    <input type="text" title="complete name" id="name" name="name" placeholder="Max Everet" required><br>
+                    <label for="city">City</label>
+                    <input type="text" title="city" id="city" name="city" placeholder="Pergamino">
+                    <label for="state">State</label>
+                    <input type="text" title="state" id="state" name="state" placeholder="Buenos Aires"><br>
+                    <label for="country">Country</label>
+                    <input type="text" title="country" id="country" name="country" placeholder="Argentina">
+                    <label for="postalcode">Postal Code</label>
+                    <input type="text" title="postalcode" id="postalcode" name="postalcode" placeholder="B2700"><br>
+                    <label for="phone">Phone*</label>
+                    <input type="tel" title="phone" id="phone" name="phone" placeholder='24770293210' required>
+                    <label for="email">Email adress*</label>
+                    <input type="email" title="email adress" id="email" name="email" placeholder="max-everet92@gmail.com" required><br>
+                    <label for="question">Comments/Questions*</label>
+                    <input type="text" title="Comment/Question" id="question" name="question" required>
+                    <button type="submit" title="Send comments" id="send-comments" name="send-comments">Send</button>
+                </fieldset>
+            </form>
+            <div id="visitus">
+                <h3>Visit Us</h3>
+                <p>Pergamino Chamber of Commerce</p>
+                <img src="images/logo.webp" alt="Pergamino Chamber of Commerce logo" class="logo">
+                <p>Av. de Mayo 2330</p>
+                <a href="https://goo.gl/maps/st8eLSo3jBRN3AYj6">See in map</a>
+                <P>Mondays to Fridays <br>9:00AM-5:00PM</P>
+                <h3>Contact</h3>
+                <p>Phone: 2477930212</p>
+                <p>Email: pergaminococ@gmail.com</p>
+            </div>
+        </main>
+        <footer>
+            
+            <div id='first'>
+                <img class='logo' src='images/logo.webp' alt='Pergamino Chamber Of Commerce Logo'>
+                <p><strong>Pergamino Chamber of Commerce</strong></p>
+                <p id='contact'>Agustin A. A. Aguilar | aguilarag98@gmail.com</p>
+                <a href='https://goo.gl/maps/st8eLSo3jBRN3AYj6'><strong>&#xf276;Location</strong></a>
+            </div>
+            <div class='second'>
+                <p id='copy'>&copy;<span id='year'></span> Pergamino Chamber</p>
+                <p>Agustin A. A. Aguilar</p>
+                <p id='class'>WDD 230 Project</p>
+                <div id="lastModified"></div>
+            </div>
+            
+        </footer>  
+        <script src="js/script.js"></script>
+            </body>
+    
+</html>
+    
