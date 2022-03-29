@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-widht, intial-scale=1">
+        <meta name="viewport" content="width=device-width, intial-scale=1">
         <meta name="description" content="Agustin Aguilar' Final Project: Temple & Inn Suites home page for WDD 230: Web Frontend Development at Brigham Young University - Idaho">        
         <title>Temple Inn & Suites</title>
         <link rel="stylesheet" href="css/normalize.css">
@@ -12,7 +12,7 @@
     </head>
     <body>
         <header>
-            <h1>Temple Inn & Suites</h1>
+            <h1>Temple Inn<br>& Suites</h1>
             <button id='btn'>&#9776;</button>
             <nav>
                 <ul>
@@ -28,14 +28,27 @@
                 </ul>
             </nav>
             <div class="social_media">
-                <a href='facebook.com'><img src="images/facebook.png" alt="Facebook"></a>
-                <a href="twitter.com"><img src="images/twitter.png" alt="Twitter"></a>
+                <a href='facebook.com'><img src="images/facebook.webp" alt="Facebook"></a>
+                <a href="twitter.com"><img src="images/twitter.webp" alt="Twitter"></a>
             </div>
         </header>
         <main>
-            <!-- <img src="images/Cordoba_temple.png" alt="Cordoba Temple"> -->
+            <div class="image-call-to-action">
+                <picture class="cordoba-temple">
+                    <source media="(max-width: 560px)" srcset="images/Cordoba_temple_small.webp">
+                    <source media="(max-width: 1023px)" srcset="images/Cordoba_temple_medium.webp">
+                    <source media="(max-width: 1500px)" srcset="images/Cordoba_temple_large.webp">
+                    <img src="Cordoba_temple_large.webp" alt="Cordoba Argentina Temple">
+                </picture>
+                <a href="reservation.html">Make a reservation</a>
+            </div>
             <div class="temple-section">
-                <img src="" alt="Buenos Aires Temple">
+                <picture class="buenos-aires-temple-one">
+                    <source media="(max-width: 560px)" srcset="images/buenos-airies-argentina-temple-small.webp">
+                    <source media="(max-width: 1023px)" srcset="images/buenos-airies-argentina-temple-medium.webp">
+                    <source media="(max-width: 1500px)" srcset="images/buenos-airies-argentina-temple-large.webp">
+                    <img src='images/buenos-airies-argentina-temple-large.webp' alt='Buenos Aires Temple'>
+                </picture>
                 <ul>
                     <li>04/02/1980 - Announced</li>
                     <li>04/20/1983 - Groundbreaking</li>
@@ -46,7 +59,12 @@
                     B1778DUA Ciudad Evita<br>
                     Buenos Aires, Argentina,</p>
                 <p>(54) 11-4693-9700</p>
-                <img src="" alt="Buenos Aires Temple">
+                <picture class="buenos-aires-temple-two">
+                    <source media="(max-width: 560px)" srcset="images/buenos-aires-argentina-temple-night-small.webp">
+                    <source media="(max-width: 1023px)" srcset="images/buenos-aires-argentina-temple-night-medium.webp">
+                    <source media="(max-width: 1500px)" srcset="images/buenos-aires-argentina-temple-night-large.webp">
+                    <img src='images/buenos-aires-argentina-temple-night-large.webp' alt='Buenos Aires Temple'>
+                </picture>
                 <a href="temple.html">See more temples</a>
             </div>
             <div class="weather">
