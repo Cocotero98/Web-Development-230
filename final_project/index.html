@@ -15,11 +15,11 @@
             <h1>Temple Inn<br>& Suites</h1>
             <button id='btn'>&#9776;</button>
             <nav>
-                <ul>
+                <ul id="nav">
                     <li><a href='temple.html'>Temple</a></li>
                     <li><a href='reservation.html'>Reservation</a></li>
-                    <li>Services
-                        <ul>
+                    <li><a id="sub-nav">Services</a>
+                        <ul id="services-nav">
                             <li><a href='services.html'>Services</a></li>
                             <li><a href='reception.html'>Recepetions</a></li>
                             <li><a href='missionaries.html'>Temple Missionaries</a></li>
@@ -43,6 +43,7 @@
                 <a href="reservation.html">Make a reservation</a>
             </div>
             <div class="temple-section">
+                <h2>Buenos Aires Argentina Temple</h2>
                 <picture class="buenos-aires-temple-one">
                     <source media="(max-width: 560px)" srcset="images/buenos-airies-argentina-temple-small.webp">
                     <source media="(max-width: 1023px)" srcset="images/buenos-airies-argentina-temple-medium.webp">
@@ -88,6 +89,8 @@
             Other Sources: ________________</p>
             <p id='copyright'>&copy;<span id='year'></span> Temple Inn & Suites</p>
         </footer>
+        <script src="js/index.js"></script>
+        <script src='js/weather.js'></script>
     </body>
 
 </html>
