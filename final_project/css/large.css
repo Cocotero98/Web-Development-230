@@ -1,5 +1,40 @@
 @media only screen and (min-width: 64rem){
 
 #btn{display: none;}
+.image-call-to-action picture{
+    display: grid;
+}
+.image-call-to-action img{
+    width: 80%;
+    justify-self: center;
+    margin-top: 20px;
+}
+header{
+    grid-template-columns: 15% 40% 35% 10%;
+}
+#nav{
+    display: flex;
+    flex-direction: row;
+    border: none;
+}
+header nav{
+    grid-row:1;
+    grid-column: 3/4;
+}
+header nav ul li a{
+    padding-left: 0;
+    text-align: center;
+    border-right: 1px solid white;
+}
+header nav ul li a:nth-last-child(2){
+    border-right: none;
+}
+body{
+    position: relative;
+}
+#services-nav{
+    position: absolute;
+
+}
 
 }
