@@ -11,6 +11,9 @@
 }
 header{
     grid-template-columns: 15% 40% 35% 10%;
+    position: sticky;
+    top: 1px;
+    left: 1px;
 }
 #nav{
     display: flex;
