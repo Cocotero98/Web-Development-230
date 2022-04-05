@@ -1,3 +1,6 @@
 @media only screen and (min-width: 35rem){
-
+    .image-call-to-action a{
+        left:40%;
+        top: 80%;
+    }
 }

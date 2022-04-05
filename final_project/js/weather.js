@@ -36,8 +36,10 @@ function changeDayName(dayNumber){
 
 let dayName=changeDayName(dayOfWeek);
 
-let fullDate=`${dayName} ${monthNumber}/${dayOfTheMonth}`
-
+let fullDate=`<strong>${dayName} ${monthNumber}/${dayOfTheMonth}</strong>`
+let currentDate=document.createElement('p');
+currentDate.setAttribute('id','current-date')
+currentDate.innerHTML=fullDate;
 let oneMoreDay=dayOfWeek+1;
 console.log(oneMoreDay)
 let dayAfterName=changeDayName(oneMoreDay);
@@ -49,6 +51,19 @@ let thirdDayName=changeDayName(ThreeMoreDay);
 let tomorrowFullDate=`${dayAfterName}`;
 let secondDayFullDate=`${secondDayName}`;
 let thirdDayFullDate=`${thirdDayName}`;
+
+let tomorrow=document.createElement('p');
+tomorrow.innerHTML=`<strong>${tomorrowFullDate}</strong>`;
+tomorrow.setAttribute('class','day')
+forecastOne.appendChild(tomorrow);
+let dayAfter=document.createElement('p');
+dayAfter.innerHTML=`<strong>${secondDayFullDate}</strong>`;
+dayAfter.setAttribute('class','day')
+forecastTwo.appendChild(dayAfter);
+let thirdDay=document.createElement('p');
+thirdDay.innerHTML=`<strong>${thirdDayFullDate}</strong>`;
+thirdDay.setAttribute('class','day')
+forecastThree.appendChild(thirdDay);
 
 console.log(dayName)
 
@@ -65,27 +80,49 @@ fetch(url)
     image.setAttribute('alt',description);
     let newDiv=document.createElement('div')
     let tempP=document.createElement('p');
-    tempP.innerText=temperature;
+    tempP.innerText=`${temperature}°`;
     let descP= document.createElement('p');
     descP.innerText=description;
     let humP= document.createElement('p');
     humP.innerText=humidity;
-    let currentDate=document.createElement('h3');
-    currentDate.setAttribute('id','current-date')
-    currentDate.innerText=fullDate;
     weatherDiv.appendChild(currentDate);
     weatherDiv.appendChild(image);
     newDiv.appendChild(tempP);
     newDiv.appendChild(descP);
     newDiv.appendChild(humP);
     weatherDiv.appendChild(newDiv);
-    let tomorrow=document.createElement('p');
-    tomorrow.innerText=tomorrowFullDate;
-    forecastOne.appendChild(tomorrow);
-    let dayAfter=document.createElement('p');
-    dayAfter.innerText=secondDayFullDate;
-    forecastTwo.appendChild(dayAfter);
-    let thirdDay=document.createElement('p');
-    thirdDay.innerText=thirdDayFullDate;
-    forecastThree.appendChild(thirdDay);
+    let dayOneTemp=`${jsonObject.daily[1].temp.day.toFixed(0)}°`;
+    let tomorrowTemp=document.createElement('p');
+    tomorrowTemp.innerText=dayOneTemp;
+    tomorrowTemp.setAttribute('class','temp')
+    let tomorrowImg=document.createElement("img")
+    let tomorrowSrc=`https://openweathermap.org/img/w/${jsonObject.daily[1].weather[0].icon}.png`
+    tomorrowImg.setAttribute('src',tomorrowSrc)
+    let tomorrowDesc=jsonObject.daily[1].weather[0].description;
+    tomorrowImg.setAttribute('alt',tomorrowDesc)
+    forecastOne.appendChild(tomorrowImg)
+    forecastOne.appendChild(tomorrowTemp)
+    let dayTwoTemp=`${jsonObject.daily[2].temp.day.toFixed(0)}°`;
+    let dayTwoP=document.createElement('p');
+    dayTwoP.innerText=dayTwoTemp;
+    dayTwoP.setAttribute('class','temp')
+    let dayTwoImg=document.createElement("img")
+    let dayTwoSrc=`https://openweathermap.org/img/w/${jsonObject.daily[2].weather[0].icon}.png`
+    dayTwoImg.setAttribute('src',dayTwoSrc)
+    let dayTwoDesc=jsonObject.daily[2].weather[0].description;
+    dayTwoImg.setAttribute('alt',dayTwoDesc);
+    forecastTwo.appendChild(dayTwoImg);
+    forecastTwo.appendChild(dayTwoP);
+
+    let dayThreeTemp=`${jsonObject.daily[3].temp.day.toFixed(0)}°`;
+    let dayThreeP=document.createElement('p');
+    dayThreeP.innerText=dayThreeTemp;
+    dayThreeP.setAttribute('class','temp')
+    let dayThreeImg=document.createElement("img")
+    let dayThreeSrc=`https://openweathermap.org/img/w/${jsonObject.daily[3].weather[0].icon}.png`
+    dayThreeImg.setAttribute('src',dayThreeSrc)
+    let dayThreeDesc=jsonObject.daily[3].weather[0].description;
+    dayThreeImg.setAttribute('alt',dayThreeDesc);
+    forecastThree.appendChild(dayThreeImg);
+    forecastThree.appendChild(dayThreeP);
 })
