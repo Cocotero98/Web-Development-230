@@ -7,42 +7,59 @@
         "image":"images/santiago.webp",
         "services":"No clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
         "history":"<p>Important dates:</p><ul><li>2 April 1980 Announced</li><li>30 May 1981 Groundbreaking</li><li>15 September 1983 Dedicated</li><li>12 March 2006 Rededicated</li></ul>",
-        "ordinance_schedule":"All ordinances are available by appointment only.Proxy ordinances may be limited to members residing in their designated temple district.",
-        "session-schedule":"",
-        "closure":"<p>Closures:</p><ul><li>Saturday, 21 May 2022</li><li>Monday, 1 August 2022 - Monday, 29 August 2022</li><li>Saturday, 17 September 2022</li><li>Saturday, 1 October 2022</li><li>Saturday, 24 December 2022</li><li>Saturday, 31 December 2022</li></ul>"
+        "ordinance_schedule":"All ordinances are available by appointment only. Proxy ordinances may be limited to members residing in their designated temple district.",
+        "session_schedule":"",
+        "closure":["Saturday, 21 May 2022",
+                    "Monday, 1 August 2022 - Monday, 29 August 2022",
+                    "Saturday, 17 September 2022",
+                    "Saturday, 1 October 2022",
+                    "Saturday, 24 December 2022",
+                    "Saturday, 31 December 2022"
+                    ]
+                },
+    {
+        "name":"Córdoba Argentina Temple",
+        "adress":"Av. Pedro Simón Laplace 5637, X5021 FPO, Córdoba",
+        "telephone":"(54) 354-340-6200",
+        "image":"images/cordoba.webp",
+        "services":"No clothing rental available. No cafeteria available. No patron housing available. Distribution center nearby",
+        "history":"<p>Important dates:</p><ul><li>4 October 2008 Announced</li><li>30 October 2010 Groundbreaking</li><li>17 May 2015 Dedicated</li></ul>",
+        "ordinance_schedule":"All ordinances are available by appointment only. Proxy ordinances may be limited to members residing in their designated temple district.",
+        "session_schedule":"",
+        "closure":["Monday, 2 May 2022 - Monday, 16 May 2022",
+                    "Wednesday, 18 May 2022",
+                    "Saturday, 9 July 2022",
+                    "Saturday, 1 October 2022",
+                    "Monday, 3 October 2022 - Monday, 12 December 2022",
+                    "Saturday, 24 December 2022",
+                    "Saturday, 31 December 2022",
+                    "Saturday, 1 April 2023",
+                    "Monday, 1 May 2023 - Monday, 15 May 2023",
+                    "Saturday, 30 September 2023",
+                    "Monday, 6 November 2023 - Monday, 20 November 2023"
+                ]
     },
     {
         "name":"",
         "adress":"",
         "telephone":"",
-        "image":"",
+        "image":"images/concepcion.webp",
         "services":"",
         "history":"",
-        "ordinance-schedule":"",
-        "session-schedule":"",
-        "temple-closure-schedule":""
+        "ordinance_schedule":"",
+        "session_schedule":"",
+        "closure":""
     },
     {
         "name":"",
         "adress":"",
         "telephone":"",
-        "image":"",
+        "image":"images/logan.webp",
         "services":"",
         "history":"",
-        "ordinance-schedule":"",
-        "session-schedule":"",
-        "temple-closure-schedule":""
-    },
-    {
-        "name":"",
-        "adress":"",
-        "telephone":"",
-        "image":"",
-        "services":"",
-        "history":"",
-        "ordinance-schedule":"",
-        "session-schedule":"",
-        "temple-closure-schedule":""
+        "ordinance_schedule":"",
+        "session_schedule":"",
+        "closure":""
     }
 
 ]}
