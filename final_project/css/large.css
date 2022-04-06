@@ -7,10 +7,10 @@
 .image-call-to-action picture{
     display: grid;
 }
-/* .image-call-to-action a{
-    top:25%;
+.image-call-to-action a{
+    /* top:25%; */
     left: 42%;
-} */
+}
 .image-call-to-action img{
     width: 85%;
     justify-self: center;
@@ -48,7 +48,7 @@ body{
     padding:11px 5px;
 }
 .temple-section, .weather{
-    margin: 0 12%;
+    margin: 50px 12%;
 }
 footer{
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -115,5 +115,12 @@ footer .social_media{
 }
 #weather-cards #current-date{
     margin: 0;
+}
+.contact-us{
+    margin: 80px auto 50px;
+    width: 400px;
+}
+.temple-section a{
+    margin-top: 30px;
 }
 }
