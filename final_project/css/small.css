@@ -244,3 +244,65 @@ footer a{
     top:30px;
     left: 80px;
 }
+
+/*------------------------------------------Temples page----------------------------------------------- */
+
+.temple-page h2{
+    text-align: center;
+    margin:30px 0;
+}
+.temple-page img{width: 100%;}
+#temple-cards div{
+    border: 1px solid #721121;
+    background-color: #ffef5f;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#temple-cards div h3{
+    align-self: center;
+}
+#temple-cards div div{
+    border: none;
+}
+
+#second_part p{
+    text-align: center;
+}
+#temple-cards div div button{
+    width: 44px;
+    height: 44px;
+    background-color: #721121;
+    color: white;
+    border: 1px solid #721121;
+}
+
+#temple-cards #first_part,#temple-cards #second_part{
+    display: block;
+}
+#temple-cards #second_part{
+    display: none;
+}
+
+#temple-cards div div{
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: right;
+}
+#temple-cards div div button:nth-child(2){
+    justify-self: left;
+    background-color: white;
+    color: #721121;
+    border: 1px solid #721121;
+}
+#first_part p{
+    margin: 16px 10px;
+}
+#second_part ul{
+    padding-left: 12px;
+}
+#second_part ul li{
+    /* list-style: georgian; */
+    margin-left: 0;
+}

@@ -150,4 +150,22 @@
         grid-column: 3/4;
         grid-row: 3;
     }
+
+
+
+/*------------------------------------------Temples page----------------------------------------------- */
+
+#temple-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin:0 7% 30px;
+    gap: 10px;
+}
+#temple-cards div{
+    margin-bottom: 0;
+}
+
+
+
+
 }

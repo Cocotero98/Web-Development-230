@@ -123,4 +123,10 @@ footer .social_media{
 .temple-section a{
     margin-top: 30px;
 }
+
+
+#temple-cards{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 }
