@@ -1,0 +1,48 @@
+{"temples":
+    [
+    {
+        "name":"",
+        "adress":"Pocuro #1940 Providencia, 6641404 Santiago, Region Metropolitana (Santiago), Chile",
+        "telephone":"(56) 22-340-5070",
+        "email":"",
+        "services":"No clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+        "history":"2 April 1980 Announced, 30 May 1981 Groundbreaking, 15 September 1983 Dedicated — dedicatory prayer, 12 March 2006 Rededicated — dedicatory prayer",
+        "ordinance-schedule":"",
+        "session-schedule":"",
+        "temple-closure-schedule":""
+    },
+    {
+        "name":"",
+        "adress":"",
+        "telephone":"",
+        "email":"",
+        "services":"",
+        "history":"",
+        "ordinance-schedule":"",
+        "session-schedule":"",
+        "temple-closure-schedule":""
+    },
+    {
+        "name":"",
+        "adress":"",
+        "telephone":"",
+        "email":"",
+        "services":"",
+        "history":"",
+        "ordinance-schedule":"",
+        "session-schedule":"",
+        "temple-closure-schedule":""
+    },
+    {
+        "name":"",
+        "adress":"",
+        "telephone":"",
+        "email":"",
+        "services":"",
+        "history":"",
+        "ordinance-schedule":"",
+        "session-schedule":"",
+        "temple-closure-schedule":""
+    }
+
+]}
