@@ -6,10 +6,10 @@
         "telephone":"(56) 22-340-5070",
         "image":"images/santiago.webp",
         "services":"No clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
-        "history":"2 April 1980 Announced, 30 May 1981 Groundbreaking, 15 September 1983 Dedicated — dedicatory prayer, 12 March 2006 Rededicated — dedicatory prayer",
+        "history":"<ul><li>2 April 1980 Announced</li><li>30 May 1981 Groundbreaking</li><li>15 September 1983 Dedicated</li><li>12 March 2006 Rededicated</li></ul>",
         "ordinance_schedule":"All ordinances are available by appointment only.Proxy ordinances may be limited to members residing in their designated temple district.",
         "session-schedule":"",
-        "closure":"Saturday, 21 May 2022, Monday, 1 August 2022 - Monday, 29 August 2022, Saturday, 17 September 2022, Saturday, 1 October 2022, Saturday, 24 December 2022, Saturday, 31 December 2022"
+        "closure":"<ul><li>Saturday, 21 May 2022</li><li>Monday, 1 August 2022 - Monday, 29 August 2022</li><li>Saturday, 17 September 2022</li><li>Saturday, 1 October 2022</li><li>Saturday, 24 December 2022</li><li>Saturday, 31 December 2022</li></ul>"
     },
     {
         "name":"",
