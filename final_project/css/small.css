@@ -306,3 +306,9 @@ footer a{
     /* list-style: georgian; */
     margin-left: 0;
 }
+.moroni{
+    padding: 0;
+}
+.moroni picture, .moroni picture img{
+    width: 100%;
+}

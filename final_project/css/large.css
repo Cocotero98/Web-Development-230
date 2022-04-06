@@ -128,5 +128,6 @@ footer .social_media{
 #temple-cards{
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+.moroni{margin: 20px 7% 0;}
 
 }
