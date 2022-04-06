@@ -160,7 +160,7 @@ footer a{
     background-color: #d6ad85;
     border-radius: 10px;
 }
-#weather h3{display:none;}
+.weather h3{display:none;}
 #weather-cards{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
