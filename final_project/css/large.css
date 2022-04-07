@@ -183,4 +183,16 @@ footer .social_media{
 .services h2{
     grid-row: 1;
 }
+
+.missionaries .hotel-banner{
+    /* width: 80%; */
+    margin: 10px 0;
+    justify-self: center;
+}
+.missionaries picture{
+    width: 80%;
+}
+.missionaries .hotel-bathroom{
+    justify-self: right
+}
 }

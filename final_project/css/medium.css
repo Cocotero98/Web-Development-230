@@ -196,4 +196,64 @@ textarea{
     align-items: center;
 } */
 
+.missionaries{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
+.missionaries .hotel-banner {
+    grid-column: 1/3;
+}
+
+.missionaries .hotel-living{
+    grid-column: 2;
+    margin-bottom: 50px;
+}
+.missionaries .hotel-bathroom{
+    grid-column: 1;
+    grid-row: 4;
+}
+.missionaries h2{
+    grid-row: 2;
+    grid-column: 1/3;
+    justify-self: center;
+}
+.missionaries form{
+    grid-column: 1/3;
+}
+.missionaries .center{
+    grid-column: 1/3;
+    justify-self: center;
+    max-width: 450px;
+    text-align: center;
+    margin-top: 30px;
+}
+.missionaries .center:nth-last-child(1){
+    background-color: #ffef5f;
+}
+.missionaries p{
+    line-height: 2em;
+    max-width: 400px;
+}
+.missionaries .right{
+    justify-self: right;
+    margin-right: 60px;
+    padding: 20px;
+    background-color: #ffef5f96;
+    border-radius: 30px 0;
+}
+.missionaries .left{
+    margin-left: 60px;
+    padding: 20px;
+    background-color: #ffef5f96;
+    border-radius:  0 30px;
+}
+.missionaries form{
+    width: 100%;
+    max-width: 750px;
+    grid-column: 1/3;
+    justify-self: center;
+}
+
 }

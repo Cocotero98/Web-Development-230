@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1">
+        <meta name="description" content="Agustin Aguilar' Final Project: Temple & Inn Suites home page for WDD 230: Web Frontend Development at Brigham Young University - Idaho">        
+        <title>Temple Inn & Suites</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="css/small.css" rel="stylesheet"  type = "text/css">
+        <link href="css/medium.css" rel="stylesheet" type="text/css">
+        <link href="css/large.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <h1>Temple Inn<br>& Suites</h1>
+            <button id='btn'>&#9776;</button>
+            <nav>
+                <ul id="nav">
+                    <li><a href='index.html'>Home</a></li>
+                    <li><a href='temple.html'>Temple</a></li>
+                    <li><a href='reservation.html'>Reservation</a></li>
+                    <li><a id="sub-nav">Services</a>
+                        <ul id="services-nav">
+                            <li><a href='services.html'>Services</a></li>
+                            <li><a href='reception.html'>Recepetions</a></li>
+                            <li><a href='missionaries.html'>Temple Missionaries</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="social_media">
+                <a href='facebook.com'><img src="images/facebook.webp" alt="Facebook"></a>
+                <a href="twitter.com"><img src="images/twitter.webp" alt="Twitter"></a>
+            </div>
+        </header>
+        <main class="missionaries">
+            <picture class="hotel-banner">
+                <source media="(max-width: 560px)" srcset="images/services/banner-small.webp">
+                <source media="(max-width: 1023px)" srcset="images/services/banner-medium.webp">
+                <source media="(max-width: 1500px)" srcset="images/services/banner-large.webp">
+                <img src='images/services/banner-large.webp' alt='Hotel room banner'>
+            </picture>
+            <h2>The best for our dear missionaries</h2>
+            <p class="right">From its inception, Temple Inn & Suites was intended to provide a comfortable 
+                place for the church missionaries who serve in the Holy Temple.</p>
+                <picture class="hotel-living">
+                    <source media="(max-width: 560px)" srcset="images/services/living-small.webp">
+                    <source media="(max-width: 1023px)" srcset="images/services/living-medium.webp">
+                    <source media="(max-width: 1500px)" srcset="images/services/living-large.webp">
+                    <img src='images/services/living-large.webp' alt='Hotel Living'>
+                </picture>
+                <p class="left">With the latest technology in equipment and services, Temple Inn & Suites 
+                    strives every day to provide the best for its guests.</p>
+                <picture class="hotel-bathroom">
+                    <source media="(max-width: 560px)" srcset="images/services/bathroom-small.webp">
+                    <source media="(max-width: 1023px)" srcset="images/services/bathroom-medium.webp">
+                    <source media="(max-width: 1500px)" srcset="images/services/bathroom-large.webp">
+                    <img src='images/services/bathroom-large.webp' alt='Hotel Bathroom'>
+                </picture>
+                
+                <p class="center" id="center">Full-time missionaries have exclusive benefits, mainly a 50% discount on all our 
+                    services.</p>
+                <p class="center">Complete the following form for more information:</p>
+                <form action="thankyou.html" method="get">
+                    <fieldset>
+                        <label for="full-name">*Name:</label>
+                        <input id="full-name" name="full-name" title="Full Name" type="text" required>
+                        <label for="email-adress">*Email:</label>
+                        <input id="email-adress" name="email-adress" title="Email Adress" type="email" required>
+                        <label for="comments">Comments:</label>
+                        <textarea id="comments" name="comments"></textarea>
+                        <button type="submit" id="sendInfo">Send me Information</button>
+                    </fieldset>
+                </form>
+
+        </main>
+        <footer>
+            <h3>The Temple Inn & Suites</h3>
+            <p id="adress">4800 Montgomery Ln #300, Bethesda, MD 20814<br>
+            <a href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814,+EE.+UU./@38.9832559,-77.0977205,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318"><strong>See in map</strong></a>
+        </p>
+            <p id="contact">TempleInn&Suites@gmail.com<br>
+                +5411340954
+            </p>
+            <p id="sources">Weather data source: <a href="https://openweathermap.org/"><strong>OpenWeatherMap</strong></a><br>
+            Other Sources: <a href="https://www.churchofjesuschrist.org/temples/list?lang=eng">Temples Sources</a></p>
+            <p id='copyright'>&copy;<span id='year'></span> Temple Inn & Suites</p>
+            <div class="social_media">
+                <a href='facebook.com'><img src="images/facebook.webp" alt="Facebook"></a>
+                <a href="twitter.com"><img src="images/twitter.webp" alt="Twitter"></a>
+            </div>
+        </footer>
+        <script src="js/index.js"></script>
+    </body>
+
+</html>

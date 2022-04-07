@@ -329,10 +329,10 @@ form fieldset legend{
 }
 form fieldset input, form button{
     height: 44px;
-    background-color: #c2c0c0;
+    background-color: #c2c0c059;
 }
 textarea{
-    background-color: #c2c0c0;
+    background-color: #c2c0c059;
 }
 label{
     line-height: 1.5em;
@@ -412,4 +412,30 @@ input:required:valid{
 .services{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.missionaries picture,.missionaries p,.missionaries h2{
+    padding: 10px;
+}
+.missionaries picture img{
+    width: 100%;
+}
+.missionaries .hotel-banner {
+    padding: 0;
+}
+.missionaries .hotel-banner img{
+    width: 100%;
+}
+#sendInfo{
+    width: 120px;
+    align-self: center;
+}
+.missionaries{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+#comments{
+    height: 100px;
 }
