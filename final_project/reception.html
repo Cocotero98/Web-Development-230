@@ -34,7 +34,40 @@
             </div>
         </header>
         <main class="reception">
-
+            <picture class="wedding">
+                <source media="(max-width: 560px)" srcset="images/services/wedding.webp">
+                <source media="(max-width: 1023px)" srcset="images/services/wedding-medium.webp">
+                <source media="(max-width: 1500px)" srcset="images/services/wedding-large.webp">
+                <img src="images/services/wedding-large.webp" alt="Wedding">
+            </picture>
+            <div>
+                <h2>Wedding services</h2>
+            <h3>Accommodations</h3>
+            <p>Temple Inn & has 120 rooms for your guests, with a 20% discount once you occupy 80.</p>
+            <h3>Services Offered</h3>
+            <p>Temple Inn & Suites offers a wedding specialist, event planning, and event rentals to make
+                 sure you have everything you need for your big day. It sets up, cleans up, and hosts, 
+                 giving you the chance to prepare. It also offers a dining experience for up to 150 
+                 people. Besides, it provides comfort for all guests with free WiFi, room televisions, 
+                 wheelchair-accessible suites, and shower facilities.</p>
+                <h3>Other Services</h3>
+                <p>In addition to the above wedding-related services, Temple Inn & Suites can provide 
+                    the following event such as a dance floor, tables, and chairs, linens, glassware,
+                     and china.</p>
+            </div>
+            
+                     <p><strong>Complete the following form for additional information:</strong></p>
+                     <form action="thankyou.html" method="get">
+                        <fieldset>
+                            <label for="full-name">*Name:</label>
+                            <input id="full-name" name="full-name" title="Full Name" type="text" required>
+                            <label for="email-adress">*Email:</label>
+                            <input id="email-adress" name="email-adress" title="Email Adress" type="email" required>
+                            <label for="comments">Comments:</label>
+                            <textarea id="comments" name="comments"></textarea>
+                            <button type="submit" id="sendInfo">Send me Information</button>
+                        </fieldset>
+                    </form>
         </main>
         <footer>
             <h3>The Temple Inn & Suites</h3>

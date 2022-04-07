@@ -439,3 +439,18 @@ input:required:valid{
 #comments{
     height: 100px;
 }
+.reception picture, .reception picture img{
+    width: 100%;
+}
+.reception div{
+    padding: 0;
+    margin: 0 0 50px 0;
+}
+.reception h2,h3,p{
+    margin: 20px;
+    text-align: center;
+}
+
+.reception div p, .reception div h3, .reception div h2{
+    text-align: left;
+}

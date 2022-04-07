@@ -195,4 +195,12 @@ footer .social_media{
 .missionaries .hotel-bathroom{
     justify-self: right
 }
+.reception div{
+    margin: 20px 20% 40px;
+}
+.reception picture{
+    width: 80%;
+    align-self: center;
+    margin-top: 10px;
+}
 }
