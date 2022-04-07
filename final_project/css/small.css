@@ -80,6 +80,7 @@ header nav ul.open{
 }
 h1,h2,h3{
     font-family: 'Playfair Display', serif;
+    line-height: 1.5em;
 }
 .cordoba-temple img{
     width: 100%;
@@ -378,7 +379,37 @@ input:required:valid{
 .thankyou div a:hover{
     text-shadow: 1px 1px 5px #721121;
 }
+#services-list{
+    border: 1px solid #721121;
+    background-color: #d6ad857c;
+    border-radius: 20px;
+    margin: 20px 10px 40px;
+    grid-column: 1/4;
+    max-width: 480px;
+    justify-self: center;
+}
+.services h2{
+    margin: 20px 10px;
+    text-align: center;
+    grid-row: 2;
+    grid-column: 1/4;
+}
+.services a{color: #721121;}
 
-/* .reservation-page h2{
-    border-bottom: 1px solid #d6ad85;
-} */
+.services h3{
+    text-align: center;
+}
+#first-block-img,#second-block-img{
+    display: flex;
+    width: 100%;
+    padding: 0;
+    justify-self: center;
+    grid-column: 1/4;
+}
+.services img{
+    width: 100%;
+}
+.services{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
