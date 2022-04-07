@@ -251,6 +251,16 @@ footer a{
     margin:30px 0;
 }
 .temple-page img{width: 100%;}
+.temple-page #like-section img{
+    width: initial;
+    grid-row: 1;
+}
+#like-section p{
+    grid-row: 1;
+    color: #721121;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px #721121;
+}
 #temple-cards div{
     border: 1px solid #721121;
     background-color: #ffef5f;
@@ -294,6 +304,10 @@ footer a{
     background-color: white;
     color: #721121;
     border: 1px solid #721121;
+    grid-row: 1;
+}
+#firstBtn{
+    grid-row: 1;
 }
 #first_part p{
     margin: 16px 10px;
