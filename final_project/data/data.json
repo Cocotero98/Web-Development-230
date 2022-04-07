@@ -19,7 +19,8 @@
                     "Saturday, 1 October 2022",
                     "Saturday, 24 December 2022",
                     "Saturday, 31 December 2022"
-                    ]
+                    ],
+        "like":"images/like.webp"
                 },
     {
         "name":"Córdoba Argentina Temple",
@@ -41,7 +42,8 @@
                     "Saturday, 24 December 2022",
                     "Saturday, 31 December 2022",
                     "Saturday, 1 April 2023"
-                ]
+                ],
+        "like":"images/like.webp"
     },
     {
         "name":"Concepción Chile Temple",
@@ -62,7 +64,8 @@
             "Monday, 14 November 2022 - Monday, 28 November 2022",
             "Saturday, 24 December 2022",
             "Saturday, 31 December 2022"
-        ]
+        ],
+        "like":"images/like.webp"
     },
     {
         "name":"Logan Utah Temple",
@@ -85,7 +88,8 @@
             "Thursday, 24 November 2022",
             "Saturday, 24 December 2022",
             "Saturday, 31 December 2022 (Limited Operations)"
-        ]
+        ],
+        "like":"images/like.webp"
     }
 
 ]}
