@@ -312,3 +312,28 @@ footer a{
 .moroni picture, .moroni picture img{
     width: 100%;
 }
+
+/*-----------------------------------Reservation-------------------------------------*/
+form{margin:0 10%}
+form fieldset{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+form fieldset input, form button{
+    height: 44px;
+}
+form button{
+    width: 80px;
+}
+#additional{
+    height: 200px;
+}
+#type-option{
+    display: flex;
+    flex-direction: column;
+}
+#type-option label{
+    margin-right: 10px;
+}

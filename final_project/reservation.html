@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1">
+        <meta name="description" content="Agustin Aguilar' Final Project: Temple & Inn Suites home page for WDD 230: Web Frontend Development at Brigham Young University - Idaho">        
+        <title>Temple Inn & Suites</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="css/small.css" rel="stylesheet"  type = "text/css">
+        <link href="css/medium.css" rel="stylesheet" type="text/css">
+        <link href="css/large.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <h1>Temple Inn<br>& Suites</h1>
+            <button id='btn'>&#9776;</button>
+            <nav>
+                <ul id="nav">
+                    <li><a href='index.html'>Home</a></li>
+                    <li><a href='temple.html'>Temple</a></li>
+                    <li><a href='reservation.html'>Reservation</a></li>
+                    <li><a id="sub-nav">Services</a>
+                        <ul id="services-nav">
+                            <li><a href='services.html'>Services</a></li>
+                            <li><a href='reception.html'>Recepetions</a></li>
+                            <li><a href='missionaries.html'>Temple Missionaries</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="social_media">
+                <a href='facebook.com'><img src="images/facebook.webp" alt="Facebook"></a>
+                <a href="twitter.com"><img src="images/twitter.webp" alt="Twitter"></a>
+            </div>
+        </header>
+        <main>
+            <h2>Make a reservation</h2>
+            <p>Please, complete the following form:</p>
+            <form action="thankyou.html" method="get">
+                <fieldset>
+                    <legend>Reservation</legend>
+                    <label for="where">Hotel:</label>
+                    <input id="where" title="Hotel selection" name="where" type="text" required>
+                    <label for="when">Date:</label>
+                    <input id="when" title="Reservation Date" name="when" type="date" required>
+                    <label for="number-of-rooms">Number of rooms:</label>
+                    <input id="number-of-rooms" title="Number of Rooms" name="number-of-rooms" type="number" required>
+                    <label>Type of room:<br>
+                        <div id="type-option">
+                            
+                        <label for="one"><input id="one" name="type" title="Room for one" type="radio">For one</label>
+                        <input id="two" name="type" title="Two persons room option" type="radio">
+                        <label for="two">For two</label>
+                        <input id="four" name="type" title="Private room for four option" type="radio">
+                        <label for="four">Four people private room</label>
+                        <input id="shared" name="type" title="Shared room option" type="radio">
+                        <label for="shared">Four people shared room</label>
+                        </div>
+                        
+                    </label>
+                    
+                </fieldset>                 
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="name">Full Name:</label>
+                    <input id="name" title="Full Name" name="name" type="text" placeholder="Esteban Quiroga" required>
+                    <label for="email">Email:</label>
+                    <input id="email" title="email" name="email" type="email" placeholder="esteban.quiroga@gmail.com" required>
+                    <label for="number">Phone Number:</label>
+                    <input id="number" title="Phone Number" name="number" type="tel" required>
+                    <label for="country">Country:</label>
+                    <input id="country" title="Country" name="country" type="text" pattern="a-zA-Z">
+                    <label for="state">State/Province/Region:</label>
+                    <input id="state" title="State, Region or Province" name="state" type="text" pattern="a-zA-Z">
+                </fieldset>
+                <fieldset>
+                    <legend>Aditional Information</legend>
+                    <label for="additional">What else can we do for you? Please, share your comments and specifications in the space below.</label>
+                    <input id="additional" name="additional" title="Additional information" type="text">
+                    <button>Reserve</button>
+                </fieldset>              
+            </form>
+        </main>
+        <footer>
+            <h3>The Temple Inn & Suites</h3>
+            <p id="adress">4800 Montgomery Ln #300, Bethesda, MD 20814<br>
+            <a href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814,+EE.+UU./@38.9832559,-77.0977205,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318"><strong>See in map</strong></a>
+        </p>
+            <p id="contact">TempleInn&Suites@gmail.com<br>
+                +5411340954
+            </p>
+            <p id="sources">Weather data source: <a href="https://openweathermap.org/"><strong>OpenWeatherMap</strong></a><br>
+            Other Sources: ________________</p>
+            <p id='copyright'>&copy;<span id='year'></span> Temple Inn & Suites</p>
+            <div class="social_media">
+                <a href='facebook.com'><img src="images/facebook.webp" alt="Facebook"></a>
+                <a href="twitter.com"><img src="images/twitter.webp" alt="Twitter"></a>
+            </div>
+        </footer>
+        <script src="js/index.js"></script>
+    </body>
+
+</html>
