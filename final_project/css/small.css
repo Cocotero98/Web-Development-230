@@ -79,7 +79,7 @@ header nav ul.open{
 h1,h2,h3{
     font-family: 'Playfair Display', serif;
 }
-p,a,li{
+p,a,li,label{
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5em;
 }
