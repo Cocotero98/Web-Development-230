@@ -33,28 +33,28 @@
                 <a href="twitter.com"><img src="images/twitter.webp" alt="Twitter"></a>
             </div>
         </header>
-        <main>
+        <main class="reservation-page">
             <h2>Make a reservation</h2>
             <p>Please, complete the following form:</p>
             <form action="thankyou.html" method="get">
                 <fieldset>
                     <legend>Reservation</legend>
-                    <label for="where">Hotel:</label>
+                    <label for="where">*Hotel:</label>
                     <input id="where" title="Hotel selection" name="where" type="text" required>
-                    <label for="when">Date:</label>
+                    <label for="when">*Date:</label>
                     <input id="when" title="Reservation Date" name="when" type="date" required>
-                    <label for="number-of-rooms">Number of rooms:</label>
+                    <label for="number-of-rooms">*Number of rooms:</label>
                     <input id="number-of-rooms" title="Number of Rooms" name="number-of-rooms" type="number" required>
-                    <label>Type of room:<br>
+                    <label id="types">Type of room:<br>
                         <div id="type-option">
                             
                         <label for="one"><input id="one" name="type" title="Room for one" type="radio">For one</label>
-                        <input id="two" name="type" title="Two persons room option" type="radio">
-                        <label for="two">For two</label>
-                        <input id="four" name="type" title="Private room for four option" type="radio">
-                        <label for="four">Four people private room</label>
-                        <input id="shared" name="type" title="Shared room option" type="radio">
-                        <label for="shared">Four people shared room</label>
+                        
+                        <label for="two"><input id="two" name="type" title="Two persons room option" type="radio">For two</label>
+                        
+                        <label for="four"><input id="four" name="type" title="Private room for four option" type="radio">Four people private room</label>
+                        
+                        <label for="shared"><input id="shared" name="type" title="Shared room option" type="radio">Four people shared room</label>
                         </div>
                         
                     </label>
@@ -62,22 +62,22 @@
                 </fieldset>                 
                 <fieldset>
                     <legend>Personal Information</legend>
-                    <label for="name">Full Name:</label>
+                    <label for="name">*Full Name:</label>
                     <input id="name" title="Full Name" name="name" type="text" placeholder="Esteban Quiroga" required>
-                    <label for="email">Email:</label>
+                    <label for="email">*Email:</label>
                     <input id="email" title="email" name="email" type="email" placeholder="esteban.quiroga@gmail.com" required>
-                    <label for="number">Phone Number:</label>
+                    <label for="number">*Phone Number:</label>
                     <input id="number" title="Phone Number" name="number" type="tel" required>
                     <label for="country">Country:</label>
-                    <input id="country" title="Country" name="country" type="text" pattern="a-zA-Z">
+                    <input id="country" title="Country" name="country" type="text" pattern="[a-zA-Z]+">
                     <label for="state">State/Province/Region:</label>
-                    <input id="state" title="State, Region or Province" name="state" type="text" pattern="a-zA-Z">
+                    <input id="state" title="State, Region or Province" name="state" type="text" pattern="[a-zA-Z]+">
                 </fieldset>
                 <fieldset>
                     <legend>Aditional Information</legend>
                     <label for="additional">What else can we do for you? Please, share your comments and specifications in the space below.</label>
-                    <input id="additional" name="additional" title="Additional information" type="text">
-                    <button>Reserve</button>
+                    <textarea id="additional"></textarea> 
+                    <button type="submit" name="reserveBtn" id="reserveBtn">Reserve</button>
                 </fieldset>              
             </form>
         </main>
