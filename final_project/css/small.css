@@ -3,6 +3,8 @@
 body{
     max-width: 1500px;
     margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5em;
 }
 header,footer{
     background-color: #721121;
@@ -78,10 +80,6 @@ header nav ul.open{
 }
 h1,h2,h3{
     font-family: 'Playfair Display', serif;
-}
-p,a,li,label{
-    font-family: 'Montserrat', sans-serif;
-    line-height: 1.5em;
 }
 .cordoba-temple img{
     width: 100%;
