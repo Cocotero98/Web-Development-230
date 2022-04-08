@@ -1,14 +1,11 @@
 @media only screen and (min-width: 64rem){
 
 #btn{display: none;}
-/* .image-call-to-action{
-    position:static;
-} */
+
 .image-call-to-action picture{
     display: grid;
 }
 .image-call-to-action a{
-    /* top:25%; */
     left: 42%;
 }
 .image-call-to-action img{
@@ -147,39 +144,6 @@ footer .social_media{
 }
 .moroni{margin: 20px 7% 0;}
 
-/* .services{
-    grid-template-columns: repeat(6,1fr);
-}
-.services h2{
-    grid-column: 1/7;
-    grid-row: 1;
-}
-#services-list{
-    grid-column: 1/7;
-    grid-row: 2/5;
-} */
-
-/* .services img:nth-child(2){
-    grid-column: 1;
-    grid-row: 2;
-    margin-left: 20px;
-    margin-top: 30px;
-}
-.services img:nth-child(3){
-    grid-column: 1;
-    margin-left: 70px;
-    grid-row: 3;
-    margin-top: 30px;
-}
-.services img:nth-child(4){
-    grid-column: 1;
-    grid-row: 4;
-    margin-left: 20px;
-    margin-top: 30px;
-}
-.services img:nth-child(5){
-    grid-column: 5;
-} */
 #first-block-img,#second-block-img{
     flex-direction: column;
     width: 70%;
@@ -202,7 +166,6 @@ footer .social_media{
 }
 
 .missionaries .hotel-banner{
-    /* width: 80%; */
     margin: 10px 0;
     justify-self: center;
 }

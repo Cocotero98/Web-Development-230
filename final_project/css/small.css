@@ -192,7 +192,6 @@ footer a{
     grid-column:1/3;
     padding: 0 10px;
     margin-bottom: 0;
-    /* color: #721121; */
 }
 #weather-cards #current-date{
     grid-column:3;
@@ -254,7 +253,6 @@ footer a{
     grid-column: 1;
 }
 .temp{
-    /* margin-left: -15px; */
     position:absolute;
     top:30px;
     left: 80px;
@@ -332,7 +330,6 @@ footer a{
     padding-left: 12px;
 }
 #second_part ul li{
-    /* list-style: georgian; */
     margin-left: 0;
 }
 .moroni{
