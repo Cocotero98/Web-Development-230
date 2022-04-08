@@ -12,3 +12,9 @@ navigationButton.addEventListener('click',toggleMenu)
 servicesButton.addEventListener('click',toggleSubMenu)
 
 //-----------------------------------------------------------------------
+
+//copyright year
+
+let year=new Date().getFullYear();
+let yearSection=document.querySelector('#year');
+yearSection.textContent=year;
