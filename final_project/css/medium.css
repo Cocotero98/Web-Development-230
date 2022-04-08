@@ -150,7 +150,22 @@
         grid-column: 3/4;
         grid-row: 3;
     }
-
+    #extra-logo{
+        display: block;
+        grid-row: 1;
+        grid-column: 3;
+    }
+    footer .logo{
+        grid-row: 1;
+        grid-column: 1;
+        width: 45px;
+        height: 50px;
+        justify-self: center;
+        align-self: flex-start;
+    }
+    footer .logo img{
+        width: 45px;
+    }
 
 
 /*------------------------------------------Temples page----------------------------------------------- */

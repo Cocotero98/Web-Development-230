@@ -19,6 +19,15 @@
 header{
     grid-template-columns: 15% 40% 35% 10%;
 }
+header .logo{
+    display: block;
+    width: 70px;
+    height: 74px;
+    margin: 10px;
+}
+header .logo img{
+    width: 70px;
+}
 #nav{
     display: flex;
     flex-direction: row;
@@ -61,6 +70,14 @@ footer h3{
     width: 80%;
     margin: 0;
     padding: 10px 0;
+}
+#extra-logo{
+    grid-row: 3;
+    grid-column: 4;
+}
+footer .logo{
+    grid-row: 3;
+    grid-column: 1;
 }
 #adress{
     grid-column: 1;
