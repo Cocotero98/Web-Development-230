@@ -211,6 +211,10 @@ textarea{
     align-items: center;
 } */
 
+.services img{
+    width: 100%;
+}
+
 .missionaries{
     display: grid;
     grid-template-columns: 1fr 1fr;
