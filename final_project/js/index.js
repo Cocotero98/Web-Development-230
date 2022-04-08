@@ -5,7 +5,7 @@ let servicesList=document.querySelector('#services-nav')
 let navigationButton=document.querySelector('#btn')
 let servicesButton=document.querySelector('#sub-nav')
 
-const toggleMenu=()=>{navigation.classList.toggle('open');console.log('hey')}
+const toggleMenu=()=>{navigation.classList.toggle('open')}
 const toggleSubMenu=()=>{servicesList.classList.toggle('open')}
 
 navigationButton.addEventListener('click',toggleMenu)

@@ -41,7 +41,6 @@ let currentDate=document.createElement('p');
 currentDate.setAttribute('id','current-date')
 currentDate.innerHTML=fullDate;
 let oneMoreDay=dayOfWeek+1;
-console.log(oneMoreDay)
 let dayAfterName=changeDayName(oneMoreDay);
 let twoMoreDay=oneMoreDay+1;
 let secondDayName=changeDayName(twoMoreDay);
@@ -65,12 +64,10 @@ thirdDay.innerHTML=`<strong>${thirdDayFullDate}</strong>`;
 thirdDay.setAttribute('class','day')
 forecastThree.appendChild(thirdDay);
 
-console.log(dayName)
 
 fetch(url)
 .then((response)=> response.json())
 .then((jsonObject)=>{
-    console.log(jsonObject);
     const iconsrc= `https://openweathermap.org/img/w/${jsonObject.current.weather[0].icon}.png`;
     let temperature=jsonObject.current.temp;
     let description=jsonObject.current.weather[0].description;
