@@ -93,13 +93,3 @@ const createCard=function(temple){
     templeSection.appendChild(card);
 }
 
-
-//----------------------------Toggle menu for info displayed-------------------------------------
-
-// let firstBtn=document.querySelector('button')
-// const secondBtn=document.querySelector('.secondBtn');
-// let firstSection=document.querySelector('#first_part');
-// let secondSection=document.querySelector('#second_part');
-// console.log(secondBtn)
-// firstBtn.addEventListener('click',showFirstSection);
-// secondBtn.addEventListener('click',showSecondSection);
