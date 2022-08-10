@@ -3,7 +3,7 @@ let firstSection=document.querySelector('#first_part');
 let secondSection=document.querySelector('#second_part');
 
 
-fetch('https://cocotero98.github.io/wdd230/final_project/data/data.json')
+fetch('https://cocotero98.github.io/Web-Development-230/final_project/data/data.json')
 .then(response=>response.json())
 .then(jsonData=>{
     const temples=jsonData.temples;
